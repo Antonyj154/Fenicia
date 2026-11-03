@@ -1,0 +1,21 @@
+{
+  "name": "fenicia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "FENICIA – simulación económica fenicia (Fase 1: motor económico)",
+  "scripts": {
+    "dev": "node -e \"require('fs').mkdirSync('assets-public',{recursive:true});try{require('fs').symlinkSync('../assets','assets-public/assets','dir')}catch(e){}\" && vite",
+    "build": "tsc && PAGE=juego vite build && python3 scripts/standalone.py",
+    "test": "vitest run",
+    "simulate": "tsx scripts/simulate.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "vite": "5.4.10",
+    "vitest": "2.1.4"
+  }
+}

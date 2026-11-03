@@ -1,0 +1,51 @@
+{
+ "imagen": "barco_galera_se_remos.png",
+ "ancho_fotograma": 149,
+ "alto_fotograma": 158,
+ "fotogramas": 4,
+ "frames": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 149,
+   "h": 158
+  },
+  {
+   "x": 149,
+   "y": 0,
+   "w": 149,
+   "h": 158
+  },
+  {
+   "x": 298,
+   "y": 0,
+   "w": 149,
+   "h": 158
+  },
+  {
+   "x": 447,
+   "y": 0,
+   "w": 149,
+   "h": 158
+  }
+ ],
+ "orden": [
+  "ataque",
+  "palada",
+  "final",
+  "recobro"
+ ],
+ "duracion_ms": 180,
+ "bucle": true,
+ "pivote": {
+  "x": 74,
+  "y": 156,
+  "nota": "centro de la línea de flotación"
+ },
+ "sprite_quieto": "barco_galera_se_recogida.png",
+ "offset_sprite_quieto": {
+  "x": 0,
+  "y": 0,
+  "nota": "posición del sprite _recogida dentro del fotograma"
+ }
+}

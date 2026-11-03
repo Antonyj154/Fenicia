@@ -1,0 +1,79 @@
+{
+  "image": "retrato_proveedor_1.png",
+  "descripcion": "mercader joven: pelo corto oscuro, túnica turquesa con cuello dorado",
+  "frame_size": {
+    "w": 64,
+    "h": 64
+  },
+  "nota": "busto de frente; luz arriba-izquierda; fondo transparente para ponerlo sobre el panel de negociación",
+  "frames": [
+    {
+      "name": "pensando_1",
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "duration_ms": 450
+    },
+    {
+      "name": "pensando_2",
+      "x": 64,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "duration_ms": 450
+    },
+    {
+      "name": "acepta",
+      "x": 128,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "duration_ms": 0
+    },
+    {
+      "name": "contraoferta",
+      "x": 192,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "duration_ms": 0
+    },
+    {
+      "name": "rechaza",
+      "x": 256,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "duration_ms": 0
+    }
+  ],
+  "states": {
+    "pensando": {
+      "frames": [
+        "pensando_1",
+        "pensando_2"
+      ],
+      "loop": true,
+      "nota": "mano en la barbilla, mientras decide"
+    },
+    "acepta": {
+      "frames": [
+        "acepta"
+      ],
+      "nota": "sonríe"
+    },
+    "contraoferta": {
+      "frames": [
+        "contraoferta"
+      ],
+      "nota": "levanta un dedo"
+    },
+    "rechaza": {
+      "frames": [
+        "rechaza"
+      ],
+      "nota": "brazos cruzados, ceño fruncido"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+Fenecia — entrega P1 (aprobada)
+
+Un PNG independiente por pieza, con el nombre de archivo del encargo, a tamaño nativo (sin escalar).
+Alfa binario, paleta Fenecia v2 (paleta_fenecia.json / .gpl), contorno exterior #120d16 y luz desde arriba a la izquierda.
+Personas: tira horizontal de 5 frames (idle 600 ms + walk_1..4 a 140 ms) mirando abajo-derecha; el JSON de al lado da frames y pivote. Espejar para abajo-izquierda.
+Edificios: se apoyan por la esquina inferior; el vértice izquierdo de la planta está en x=0 y el vértice inferior en la última fila. Rejilla iso 32×16.
+Objetos y árboles: el pivote es el punto de apoyo en el suelo. Mercancías e iconos de UI: sin pivote, centrados en su cuadro.
+
+edificios/ (13 PNG)
+  casa_01.png                        80×83, base 2,5 × 2,5 casillas
+  casa_02.png                        88×95, base 3 × 2,5 casillas
+  casa_03.png                        96×97, base 3 × 3 casillas
+  casa_04.png                        104×133, base 3,5 × 3 casillas
+  casa_05.png                        80×110, base 2,5 × 2,5 casillas
+  casa_06.png                        96×81, base 3 × 3 casillas
+  edif_almacen_pequeno.png           64×70, base 2 × 2 casillas
+  edif_local_alfareros.png           80×83, base 2,5 × 2,5 casillas
+  edif_oficina_puerto.png            128×141, base 4 × 4 casillas
+  edif_puesto_ambulante.png          31×23, base 1 × 1 casillas
+  edif_puesto_plaza.png              56×61, base 2 × 1,5 casillas
+  edif_puesto_puerto.png             56×57, base 2 × 1,5 casillas
+  edif_templo_melqart.png            176×163, base 6 × 5 casillas, alto 3
+
+personas/ (7 PNG)
+  pj_cliente_1.png                   tira 100×29, frame 20×29, pivote x=11, y=28 (+ pj_cliente_1.json)
+  pj_cliente_2.png                   tira 100×29, frame 20×29, pivote x=11, y=28 (+ pj_cliente_2.json)
+  pj_cliente_3.png                   tira 100×35, frame 20×35, pivote x=11, y=34 (+ pj_cliente_3.json)
+  pj_cliente_4.png                   tira 100×29, frame 20×29, pivote x=11, y=28 (+ pj_cliente_4.json)
+  pj_jugador.png                     tira 100×29, frame 20×29, pivote x=11, y=28 (+ pj_jugador.json)
+  pj_porteador.png                   tira 100×29, frame 20×29, pivote x=11, y=28 (+ pj_porteador.json)
+  pj_vendedor.png                    tira 100×29, frame 20×29, pivote x=11, y=28 (+ pj_vendedor.json)
+
+objetos/ (13 PNG)
+  arbol_cedro_01.png                 60×53, pivote x=30, y=52
+  arbol_cedro_02.png                 56×49, pivote x=26, y=48
+  arbol_cipres_01.png                14×61, pivote x=6, y=60
+  arbol_cipres_02.png                16×51, pivote x=8, y=50
+  arbol_olivo_01.png                 38×35, pivote x=18, y=34
+  arbol_olivo_02.png                 34×36, pivote x=18, y=35
+  arbol_palmera_01.png               41×54, pivote x=16, y=53
+  arbol_palmera_02.png               34×53, pivote x=20, y=52
+  obj_anforas.png                    25×27, pivote x=12, y=26 (centro de la base del grupo)
+  obj_cajas_01.png                   21×26, pivote x=9, y=25
+  obj_cajas_02.png                   27×30, pivote x=17, y=29
+  obj_cajas_03.png                   35×30, pivote x=17, y=29
+  obj_sacos.png                      30×28, pivote x=9, y=27
+
+mercancias/ (10 PNG)
+  merc_aceite_de_oliva.png           32×32
+  merc_baratijas.png                 32×32
+  merc_ceramica_sencilla.png         32×32
+  merc_cestas_artesanales.png        32×32
+  merc_cuentas_de_vidrio.png         32×32
+  merc_joyeria_sencilla.png          32×32
+  merc_telas_de_lino.png             32×32
+  merc_utensilios_de_bronce.png      32×32
+  merc_vidrio_trabajado.png          32×32
+  merc_vino_comun.png                32×32
+
+ui/ (12 PNG)
+  ui_ciclo.png                       16×16
+  ui_ciudad.png                      24×24
+  ui_mapa.png                        24×24
+  ui_mercado.png                     24×24
+  ui_moneda.png                      16×16
+  ui_muelle.png                      24×24
+  ui_nivel.png                       16×16
+  ui_patrimonio.png                  16×16
+  ui_pausa.png                       16×16
+  ui_prestigio.png                   16×16
+  ui_x1.png                          16×16
+  ui_x6.png                          16×16
+
+barcos/ todavía no aplica (sin piezas P1).

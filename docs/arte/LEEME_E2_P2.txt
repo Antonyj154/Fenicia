@@ -1,0 +1,7 @@
+Fenecia · Encargo 2 · Tanda P2
+Cada pieza es un PNG independiente a tamaño nativo, fondo transparente con alfa binario (los mapas son opacos). Solo colores de la paleta v2 (paleta_fenecia.json/.gpl/.png). Contorno exterior 1 px #120d16. Luz desde arriba a la izquierda.
+- Tile isométrico 2:1 de 32×16. Ancho de una base W×D = (W+D)×16 px.
+- Pivote: centro de la base, en la última fila de la imagen (edificios, objetos, rocas, marcas). En personas, carretas, retratos y remos, el pivote y los fotogramas están en el JSON de al lado de cada tira.
+- Personas: tira de 5 fotogramas (quieto 600 ms + caminar 1–4 a 140 ms cada uno). De frente miran abajo-derecha; _espalda, arriba-derecha. Mismo fotograma y pivote en ambas tiras. Espejar para el otro lado.
+- Barcos: _se / _so según la dirección, con vela _izada, _recogida, y _remos (tira de 4 fotogramas, ver JSON).
+- Mapas 1080×1920 (dibujo nativo 270×480 ampliado ×4 con vecino más cercano). mapa_mediterraneo tiene el ESTE ARRIBA (norte a la izquierda, la rosa lo marca con la punta roja). Coordenadas de lugares en mapas/mapas_lugares.json.

@@ -1,0 +1,271 @@
+<title>FENICIA Encargo de arte</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Marcellus&display=swap">
+<style>
+/* Hoja de encargo: columna de lectura, tablas por familia de piezas, bloques de prompt copiables. */
+:root {
+  --bg: #f6f3ee; --panel: #fffdf9; --ink: #221c2b; --muted: #6c6474; --line: #e2dbd2;
+  --purple: #7a1f5c; --soft: #f3e4ee; --code: #f0ebe3; --good: #2f7d4f;
+  --display: "Marcellus", "Palatino Linotype", Georgia, serif;
+  --ui: "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #17131c; --panel: #201a27; --ink: #efe8f0; --muted: #a79fb0; --line: #352c3e; --purple: #d877b5; --soft: #3a2135; --code: #2a2231; --good: #5cc28a; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #17131c; --panel: #201a27; --ink: #efe8f0; --muted: #a79fb0; --line: #352c3e; --purple: #d877b5; --soft: #3a2135; --code: #2a2231; --good: #5cc28a; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--ui); font-size: 15px; line-height: 1.55; margin: 0; }
+.wrap { max-width: 940px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: grid; gap: 30px; }
+.eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(28px, 5vw, 40px); margin: 4px 0 8px; color: var(--purple); text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 400; font-size: 23px; margin: 0; text-wrap: balance; }
+h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 8px 0 0; font-weight: 600; }
+p, li { max-width: 70ch; }
+p { margin: 0; }
+section { display: grid; gap: 12px; min-width: 0; }
+ul, ol { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+.tbl { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th { text-align: left; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 9px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td code, p code, li code { font-family: var(--mono); font-size: 12.5px; background: var(--code); padding: 1px 5px; border-radius: 4px; white-space: nowrap; }
+.n { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pri { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--soft); color: var(--purple); white-space: nowrap; }
+.prompt { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; display: grid; }
+.prompt header { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 8px 12px; border-bottom: 1px solid var(--line); font-size: 13px; font-weight: 600; }
+.prompt pre { margin: 0; padding: 12px; font-family: var(--mono); font-size: 12.5px; white-space: pre-wrap; word-break: break-word; }
+button.copy { font: 500 12px var(--ui); color: var(--ink); background: var(--code); border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+button.copy:hover { border-color: var(--purple); }
+button.copy:focus-visible { outline: 2px solid var(--purple); outline-offset: 2px; }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.sw { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; display: grid; gap: 6px; font-size: 13px; }
+.sw .chips { display: flex; height: 22px; border-radius: 4px; overflow: hidden; }
+.sw .chips i { flex: 1; }
+.sw code { font-family: var(--mono); font-size: 11px; color: var(--muted); word-break: break-all; }
+.diagram { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; overflow-x: auto; }
+.diagram svg { display: block; max-width: 100%; height: auto; }
+.note { background: var(--soft); border-radius: 10px; padding: 12px 14px; max-width: 72ch; }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">FENICIA · Fase 2 · Encargo de arte</div>
+  <h1>Piezas de arte para generar con otra IA</h1>
+  <p>Todo lo que el juego necesita dibujado: edificios, barcos, personas, objetos, mercancías, iconos y el mapa. Para cada pieza hay medidas, orientación y luz, y al final hay prompts listos para copiar. El terreno, el agua, las calles, las sombras proyectadas y las animaciones los genero yo con código, así que <b>no hace falta pedirlos</b>.</p>
+</header>
+
+<section>
+  <h2>1. Reglas comunes a todas las piezas</h2>
+  <div class="tbl"><table><tbody>
+    <tr><td><b>Estilo</b></td><td>Pixel art isométrico de alto detalle (<i>hi-bit</i>), como tu imagen de referencia. Píxeles nítidos, sin difuminado, sin degradados suaves ni brillos fotográficos. Se permite tramado (<i>dither</i>) para los medios tonos.</td></tr>
+    <tr><td><b>Proyección</b></td><td>Isométrica 2:1 (dimétrica de videojuego). Las aristas horizontales suben <b>26,57°</b> (2 píxeles a lo ancho por 1 de alto). Las verticales son verticales de verdad. Sin punto de fuga ni distorsión de perspectiva.</td></tr>
+    <tr><td><b>Orientación</b></td><td>Cámara mirando desde el frente (sur). Se ven el techo, la <b>fachada frontal izquierda</b> y la <b>fachada frontal derecha</b>. La <b>puerta principal va en la fachada izquierda</b>.</td></tr>
+    <tr><td><b>Luz</b></td><td>Sol de media tarde desde <b>arriba a la izquierda</b>. El techo es lo más claro, la fachada izquierda queda iluminada y la derecha en sombra fresca, ligeramente azulada. Un filete de luz en la arista vertical delantera.</td></tr>
+    <tr><td><b>Sombras</b></td><td><b>Sin sombra proyectada en el suelo</b>: la calculo yo, siempre hacia abajo a la derecha, para que todas coincidan. Sí se permite una sombra de contacto oscura de 1 a 2 píxeles en la base.</td></tr>
+    <tr><td><b>Contorno</b></td><td>Línea de 1 píxel en <code>#120d16</code> (nunca negro puro) solo en el contorno exterior. Dentro, los volúmenes se separan por tono, no por línea.</td></tr>
+    <tr><td><b>Fondo</b></td><td>PNG con <b>fondo transparente</b>. Si tu IA no lo permite, fondo plano <code>#FF00FF</code> (magenta), que yo elimino.</td></tr>
+    <tr><td><b>Una pieza por imagen</b></td><td>El objeto entero, centrado, sin recortar, sin suelo alrededor más allá de su base, sin texto ni letreros, sin marcos ni interfaz.</td></tr>
+    <tr><td><b>Época</b></td><td>Tiro fenicia hacia el 800 a. C. Muros de piedra caliza o adobe encalado, azoteas planas con pretil, algunos tejados de teja terracota, madera de cedro, toldos y telas en púrpura de Tiro. Nada vikingo, medieval, griego clásico ni de fantasía. Sin nieve ni pinos.</td></tr>
+    <tr><td><b>Tamaño</b></td><td>Genera en la mayor resolución que permita tu IA. Yo la reduzco y la ajusto a la paleta del juego. Lo importante son las <b>proporciones de la base</b> de cada tabla: un edificio de 2 × 2 unidades debe tener la base el doble de ancha que uno de 1 × 1.</td></tr>
+    <tr><td><b>Coherencia</b></td><td>Genera la primera pieza (el templo, por ejemplo), y cuando te guste úsala como <b>imagen de referencia de estilo</b> para todas las demás. Mantén siempre el mismo prompt base.</td></tr>
+  </tbody></table></div>
+
+  <div class="diagram">
+    <svg viewBox="0 0 640 300" role="img" aria-label="Esquema de la proyección: una caja isométrica con el techo claro, la cara izquierda iluminada, la cara derecha en sombra, el sol arriba a la izquierda y la sombra proyectada hacia abajo a la derecha.">
+      <polygon points="200,250 360,170 520,250 360,330" fill="none" stroke="var(--muted)" stroke-dasharray="4 4"/>
+      <polygon points="360,250 440,210 520,250 520,250 440,290" fill="var(--line)" opacity=".9"/>
+      <polygon points="240,210 360,150 360,70 240,130" fill="#d6c4a6"/>
+      <polygon points="360,150 480,210 480,130 360,70" fill="#8b7a63"/>
+      <polygon points="240,130 360,70 480,130 360,190" fill="#f7eedb" transform="translate(0,-0)"/>
+      <polygon points="240,210 360,270 360,190 240,130" fill="#d6c4a6"/>
+      <polygon points="360,270 480,210 480,130 360,190" fill="#8b7a63"/>
+      <polygon points="240,130 360,70 480,130 360,190" fill="#f7eedb"/>
+      <line x1="360" y1="190" x2="360" y2="270" stroke="#fbf4e4" stroke-width="2"/>
+      <circle cx="70" cy="50" r="22" fill="#f2c45a"/>
+      <line x1="95" y1="65" x2="225" y2="125" stroke="#f2c45a" stroke-width="2" marker-end="url(#a)"/>
+      <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#f2c45a"/></marker></defs>
+      <text x="30" y="98" font-size="13" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">Sol arriba a la izquierda</text>
+      <text x="300" y="110" font-size="13" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">Techo: lo más claro</text>
+      <text x="150" y="232" font-size="13" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">Izquierda: luz</text>
+      <text x="488" y="182" font-size="13" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">Derecha: sombra</text>
+      <text x="438" y="296" font-size="13" fill="var(--muted)" font-family="IBM Plex Sans, sans-serif">Sombra proyectada: la pongo yo</text>
+      <text x="230" y="160" font-size="12" fill="var(--muted)" font-family="IBM Plex Mono, monospace">26,57°</text>
+    </svg>
+  </div>
+</section>
+
+<section>
+  <h2>2. Paleta del juego</h2>
+  <p>Pídele a tu IA que se ciña a estos tonos. Después yo ajusto cada pieza a la paleta exacta para que todo combine.</p>
+  <div class="swatches">
+    <div class="sw"><b>Caliza (muros)</b><div class="chips"><i style="background:#6f5f4c"></i><i style="background:#9a856a"></i><i style="background:#bba58a"></i><i style="background:#d6c4a6"></i><i style="background:#ebdcc0"></i><i style="background:#f7eedb"></i></div><code>#6f5f4c #9a856a #bba58a #d6c4a6 #ebdcc0 #f7eedb</code></div>
+    <div class="sw"><b>Teja terracota</b><div class="chips"><i style="background:#5e2416"></i><i style="background:#7d321d"></i><i style="background:#9d4426"></i><i style="background:#bb5a31"></i><i style="background:#d6744a"></i></div><code>#5e2416 #7d321d #9d4426 #bb5a31 #d6744a</code></div>
+    <div class="sw"><b>Madera de cedro</b><div class="chips"><i style="background:#2e1d12"></i><i style="background:#47301d"></i><i style="background:#64452a"></i><i style="background:#82603a"></i><i style="background:#a07d52"></i></div><code>#2e1d12 #47301d #64452a #82603a #a07d52</code></div>
+    <div class="sw"><b>Púrpura de Tiro</b><div class="chips"><i style="background:#3d0d2e"></i><i style="background:#5c143f"></i><i style="background:#7b1f5d"></i><i style="background:#9b3a7a"></i><i style="background:#c06aa0"></i></div><code>#3d0d2e #5c143f #7b1f5d #9b3a7a #c06aa0</code></div>
+    <div class="sw"><b>Piedra gris</b><div class="chips"><i style="background:#4e4a46"></i><i style="background:#6c665e"></i><i style="background:#8b8378"></i><i style="background:#a99f91"></i><i style="background:#c5bcad"></i></div><code>#4e4a46 #6c665e #8b8378 #a99f91 #c5bcad</code></div>
+    <div class="sw"><b>Tierra y calles</b><div class="chips"><i style="background:#6b5034"></i><i style="background:#8a6a45"></i><i style="background:#a8845a"></i><i style="background:#c29d6e"></i><i style="background:#d8b886"></i></div><code>#6b5034 #8a6a45 #a8845a #c29d6e #d8b886</code></div>
+    <div class="sw"><b>Vegetación</b><div class="chips"><i style="background:#1d3317"></i><i style="background:#2b4a1f"></i><i style="background:#3c6227"></i><i style="background:#527b32"></i><i style="background:#6f9640"></i><i style="background:#84916b"></i></div><code>#1d3317 #2b4a1f #3c6227 #527b32 #6f9640 #84916b</code></div>
+    <div class="sw"><b>Mar</b><div class="chips"><i style="background:#0d2a45"></i><i style="background:#164a72"></i><i style="background:#23729a"></i><i style="background:#2f9fae"></i><i style="background:#7fd3c8"></i></div><code>#0d2a45 #164a72 #23729a #2f9fae #7fd3c8</code></div>
+    <div class="sw"><b>Telas y acentos</b><div class="chips"><i style="background:#efe5d2"></i><i style="background:#bf3e25"></i><i style="background:#e0a92e"></i><i style="background:#f6d36a"></i><i style="background:#9c6a47"></i><i style="background:#120d16"></i></div><code>crema #efe5d2 · rojo #bf3e25 · oro #e0a92e #f6d36a · piel #9c6a47 · contorno #120d16</code></div>
+  </div>
+</section>
+
+<section>
+  <h2>3. Lista de piezas</h2>
+  <p class="note">Las medidas están en <b>unidades del juego</b>: una unidad equivale a una baldosa del suelo. «Base» es la planta del edificio (ancho × fondo) y «Alto», la altura de las paredes sin contar el tejado. La prioridad indica el orden de entrega: <b>P1</b> sirve para jugar los primeros minutos, <b>P2</b> para el comercio establecido y el mar, y <b>P3</b> para el final de partida. Los nombres de archivo me permiten cargarlos sin ajustes manuales.</p>
+
+  <h3>3.1 Edificios del jugador</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Archivo</th><th>Pieza</th><th class="n">Base</th><th class="n">Alto</th><th>Descripción</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td><code>edif_puesto_ambulante</code></td><td>Puesto ambulante</td><td class="n">1 × 1</td><td class="n">0,6</td><td>Manta en el suelo con una cesta y unas baratijas; el inicio del jugador.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>edif_puesto_plaza</code></td><td>Puesto en la plaza</td><td class="n">2 × 1,5</td><td class="n">1,1</td><td>Mesa de madera con toldo a rayas púrpura y crema sobre cuatro postes; ánforas y cestas.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>edif_puesto_puerto</code></td><td>Puesto del puerto</td><td class="n">2 × 1,5</td><td class="n">1,1</td><td>Igual, con toldo a rayas rojas y crema, redes y pescado seco colgados.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>edif_puesto_templo</code></td><td>Puesto junto al templo</td><td class="n">2,5 × 1,5</td><td class="n">1,2</td><td>Toldo turquesa y crema, incienso humeando, figurillas votivas.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>edif_local_alfareros</code></td><td>Local en la calle de los alfareros</td><td class="n">2,5 × 2,5</td><td class="n">1,6</td><td>Tienda de una planta, azotea con pretil, puerta ancha con mostrador y cerámica expuesta en la entrada.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>edif_local_mercado</code></td><td>Local del mercado central</td><td class="n">3 × 3</td><td class="n">2</td><td>Dos plantas, toldo púrpura en la azotea, telas colgadas en la fachada.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>edif_casa_comercio</code></td><td>Casa de comercio del puerto</td><td class="n">4 × 3,5</td><td class="n">2,4</td><td>Edificio señorial de sillares, pórtico con dos columnas, estandartes púrpura.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>edif_gran_bazar</code></td><td>Gran bazar</td><td class="n">6 × 5</td><td class="n">2,6</td><td>Galería porticada alrededor de un patio con puestos, tejado de teja.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>edif_almacen_pequeno</code></td><td>Almacén pequeño</td><td class="n">2 × 2</td><td class="n">1,3</td><td>Cobertizo de adobe con puerta de madera y cajas apiladas en la entrada.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>edif_almacen_mediano</code></td><td>Almacén mediano</td><td class="n">3 × 3</td><td class="n">1,8</td><td>Nave de caliza con tejado de teja a dos aguas y portón en arco.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>edif_almacen_grande</code></td><td>Almacén grande</td><td class="n">4 × 4</td><td class="n">2,2</td><td>Nave alargada con contrafuertes, dos portones y una polea de carga.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>edif_almacen_portuario</code></td><td>Almacén portuario</td><td class="n">6 × 4</td><td class="n">2,6</td><td>Gran nave junto al agua con grúa de madera (pescante) y fardos.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>edif_almacen_comercial</code></td><td>Almacén comercial</td><td class="n">8 × 6</td><td class="n">3</td><td>Complejo de dos naves unidas por un patio de carga con carros.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>edif_oficina_puerto</code></td><td>Oficina del puerto</td><td class="n">4 × 4</td><td class="n">2,6</td><td>Edificio administrativo con torre de vigía, almenas y estandartes púrpura con remate de oro.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>edif_astillero</code></td><td>Astillero</td><td class="n">10 × 5</td><td class="n">2,5</td><td>Grada inclinada hacia el agua, cobertizo de carpinteros, montones de troncos de cedro y una cabria de madera. <b>Sin barco</b>: el barco en construcción va aparte.</td><td><span class="pri">P3</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>3.2 Ciudad y lugares de referencia</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Archivo</th><th>Pieza</th><th class="n">Base</th><th class="n">Alto</th><th>Descripción</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td><code>edif_templo_melqart</code></td><td>Templo de Melqart</td><td class="n">6 × 5</td><td class="n">3</td><td>Podio escalonado, santuario con tejado de teja y <b>dos columnas exentas delante, una de oro y otra verde esmeralda</b>; altar humeante.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>casa_01</code> a <code>casa_06</code></td><td>Casas de la ciudad (6 variantes)</td><td class="n">2,5 × 2,5 a 3,5 × 3</td><td class="n">1,1 a 2,2</td><td>Viviendas encaladas de 1 o 2 plantas: azotea con jarras o toldo, escalera exterior, patio con olivo. Variar alturas, puertas y ventanas.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>taller_tinte</code></td><td>Tintorería de púrpura</td><td class="n">3 × 3</td><td class="n">1,8</td><td>Patio con tinas de piedra, montones de conchas de múrice y telas púrpura secándose.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>taller_vidrio</code></td><td>Taller de vidrio</td><td class="n">3 × 3</td><td class="n">1,8</td><td>Horno con resplandor naranja, estantes con vasos de colores.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>taller_alfareria</code></td><td>Alfarería</td><td class="n">3 × 3</td><td class="n">1,6</td><td>Horno de cúpula, torno, ánforas secándose al sol.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>taller_fundicion</code></td><td>Fundición de bronce</td><td class="n">3 × 3</td><td class="n">2</td><td>Chimenea con humo, yunque, lingotes de cobre apilados.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>taller_cedro</code></td><td>Aserradero de cedro</td><td class="n">3 × 3</td><td class="n">1,8</td><td>Cobertizo abierto, troncos y tablones de cedro, sierra de dos hombres.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>muralla_tramo</code>, <code>muralla_torre</code></td><td>Muralla de Tiro</td><td class="n">4 × 1 · 2 × 2</td><td class="n">2,5 · 3,5</td><td>Tramo recto almenado y torre cuadrada de sillares sobre el mar.</td><td><span class="pri">P3</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>3.3 Barcos</h3>
+  <p>Cada barco en <b>dos orientaciones</b>: <code>_se</code> (proa hacia abajo a la derecha) y <code>_so</code> (proa hacia abajo a la izquierda). Para cada una, <b>vela izada</b> y <b>vela recogida</b>. Dibujados <b>hasta la línea de flotación</b>, sin agua alrededor: el agua y el reflejo los pongo yo. Referencia: el barco mercante fenicio (<i>gaulos</i>), con casco ancho y redondeado, proa y popa altas y curvas, mascarón de cabeza de caballo, ojo pintado en la proa, una sola vela cuadrada en una verga y remo de gobierno a popa.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Archivo</th><th>Barco</th><th class="n">Eslora × manga</th><th>Descripción</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td><code>barco_galera_se_izada</code> (y variantes)</td><td>Galera de alquiler</td><td class="n">7 × 2,3</td><td>Pequeña y algo gastada; vela a rayas rojas y crema; 4 remos por banda.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>barco_mercante_se_izada</code> (y variantes)</td><td>Barco mercante</td><td class="n">9 × 2,8</td><td>Bodega llena de ánforas en cubierta; vela a rayas rojas y crema; mascarón de caballo.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>barco_avanzado_se_izada</code> (y variantes)</td><td>Barco avanzado</td><td class="n">12 × 3,4</td><td>Más grande y alto, casco con escudos en la borda, vela a rayas púrpura y crema.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>barco_construccion_1</code> a <code>_3</code></td><td>Barco en grada</td><td class="n">9 × 2,8</td><td>Tres etapas: solo quilla y cuadernas; medio forrado; casco terminado sin mástil. Orientación <code>_se</code>.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>barca_pesca</code></td><td>Barca de pescadores</td><td class="n">3 × 1</td><td>Decoración del puerto, con dos remeros.</td><td><span class="pri">P3</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>3.4 Personas</h3>
+  <p>Figuras de cuerpo entero, unas <b>4 cabezas de alto</b>, legibles a tamaño pequeño. Para cada una: <b>1 pose quieta</b> y <b>4 fotogramas de caminar</b>, mirando hacia abajo a la derecha (el espejo lo hago yo). Si tu IA lo permite, entrega los fotogramas en una tira horizontal con la misma separación entre ellos. Ropa de época: túnicas hasta la rodilla o el tobillo, sandalias, gorros cónicos o turbantes en algunos.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Archivo</th><th>Personaje</th><th>Aspecto</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td><code>pj_jugador</code></td><td>El mercader (jugador)</td><td>Túnica crema con cenefa púrpura, bolsa de monedas al cinto y cesta.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>pj_vendedor</code></td><td>Vendedor</td><td>Túnica marrón, delantal, ánfora en brazos.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>pj_almacenero</code></td><td>Almacenero</td><td>Túnica corta gris, cargando una caja al hombro.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>pj_coordinador</code></td><td>Coordinador</td><td>Túnica larga turquesa, tablilla de cera y estilo.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>pj_capitan</code></td><td>Capitán</td><td>Barba, gorro cónico, manto rojo, bastón.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>pj_marinero</code></td><td>Marinero</td><td>Taparrabos o túnica corta, cuerda enrollada al hombro.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>pj_porteador</code></td><td>Porteador</td><td>Saco grande a la espalda, encorvado.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>pj_cliente_1</code> a <code>_4</code></td><td>Clientes</td><td>Dos hombres y dos mujeres, túnicas de colores variados, una con cántaro en la cabeza.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>pj_sacerdote</code></td><td>Sacerdote de Melqart</td><td>Túnica de lino blanco, cabeza rapada, incensario.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>pj_extranjero</code></td><td>Mercader extranjero</td><td>Egipcio con faldellín blanco, o mercader de Chipre con manto a rayas.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>pj_guardia</code></td><td>Guardia del puerto</td><td>Casco cónico de bronce, lanza y escudo redondo.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>animal_burro</code>, <code>animal_carro</code></td><td>Burro y carro</td><td>Burro con alforjas; carro de dos ruedas tirado por un burro.</td><td><span class="pri">P3</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>3.5 Objetos y vegetación</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Archivo</th><th>Pieza</th><th class="n">Base</th><th>Notas</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td><code>obj_cajas</code></td><td>Pila de cajas de madera</td><td class="n">1 × 1</td><td>3 variantes de pila (2, 3 y 5 cajas).</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>obj_anforas</code></td><td>Grupo de ánforas</td><td class="n">1 × 1</td><td>Ánforas de punta, apoyadas unas en otras.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>obj_sacos</code></td><td>Sacos de grano</td><td class="n">1 × 1</td><td>Arpillera crema, atados.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>obj_toneles</code></td><td>Toneles</td><td class="n">1 × 1</td><td>Dos o tres, uno tumbado.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>obj_fardos_purpura</code></td><td>Fardos de tela púrpura</td><td class="n">1 × 1</td><td>Rollos atados con cuerda.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>obj_troncos_cedro</code></td><td>Troncos de cedro</td><td class="n">3 × 1</td><td>Pila de troncos con corteza rojiza.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>obj_lingotes</code></td><td>Lingotes</td><td class="n">1 × 1</td><td>Lingotes de cobre con forma de piel de buey.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>obj_cofre</code></td><td>Cofre de lujo</td><td class="n">1 × 1</td><td>Marfil y oro, entreabierto.</td><td><span class="pri">P3</span></td></tr>
+      <tr><td><code>obj_grua</code></td><td>Grúa de muelle</td><td class="n">1 × 1</td><td>Pescante de madera con polea y red de carga.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>arbol_palmera</code>, <code>arbol_cipres</code>, <code>arbol_olivo</code>, <code>arbol_cedro</code></td><td>Árboles</td><td class="n">1 × 1</td><td>Dos variantes de cada uno. El cedro del Líbano es ancho y con pisos de ramas.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>obj_macetas</code>, <code>obj_hoguera</code></td><td>Detalles</td><td class="n">1 × 1</td><td>Macetas con flores; brasero encendido.</td><td><span class="pri">P3</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>3.6 Mercancías (iconos de la interfaz)</h3>
+  <p>30 iconos <b>cuadrados</b>, vista de tres cuartos desde arriba, la misma luz, fondo transparente, el objeto ocupando el 80% del cuadro y sin contorno en el marco. El archivo es <code>merc_</code> más el nombre en minúsculas sin tildes (por ejemplo <code>merc_tinte_purpura</code>).</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Niveles</th><th>Mercancías</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td>1–5</td><td>Baratijas · Cuentas de vidrio · Cerámica sencilla · Cestas artesanales · Aceite de oliva · Vino común · Telas de lino · Utensilios de bronce · Vidrio trabajado · Joyería sencilla</td><td><span class="pri">P1</span></td></tr>
+      <tr><td>6–10</td><td>Madera de cedro · Cerámica fina · Lingotes de cobre · Estaño · Tejidos teñidos · Vino selecto · Tinte púrpura · Joyas de plata · Marfil trabajado · Vidrio de lujo</td><td><span class="pri">P2</span></td></tr>
+      <tr><td>11–15</td><td>Especias exóticas · Incienso · Oro trabajado · Joyas de oro · Seda importada · Piedras preciosas · Cargamentos exclusivos · Artefactos de lujo · Contratos de mercancía a gran escala (tablilla sellada con un lacre) · Cargamentos especiales (cofre sellado)</td><td><span class="pri">P3</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>3.7 Iconos de la interfaz, mapa y escudos</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Archivo</th><th>Pieza</th><th>Notas</th><th>Prio.</th></tr></thead>
+    <tbody>
+      <tr><td><code>ui_moneda</code>, <code>ui_patrimonio</code>, <code>ui_nivel</code>, <code>ui_prestigio</code>, <code>ui_ciclo</code></td><td>Recursos de la barra superior</td><td>Moneda de plata fenicia, cofre, estrella, laurel, reloj de arena.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>ui_ciudad</code>, <code>ui_mercado</code>, <code>ui_muelle</code>, <code>ui_mapa</code></td><td>Barra inferior</td><td>Templo, balanza, ancla y mapa plegado. Siluetas claras sobre fondo oscuro.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>ui_pausa</code>, <code>ui_x1</code>, <code>ui_x6</code></td><td>Control del tiempo</td><td>Para el panel que aparece al mantener pulsado: pausa, normal y rápido.</td><td><span class="pri">P1</span></td></tr>
+      <tr><td><code>ui_personal</code>, <code>ui_finanzas</code>, <code>ui_contratos</code>, <code>ui_proveedores</code>, <code>ui_expedicion</code>, <code>ui_prestamo</code>, <code>ui_hito</code>, <code>ui_alerta</code></td><td>Paneles</td><td>El mismo estilo, cuadrados.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>ev_</code> + evento (11)</td><td>Eventos del mercado</td><td>Escasez de cedro, malas cosechas, nuevo proveedor, bloqueo portuario, piratería, fiebre por el lujo, cambio de gobierno, nuevos impuestos, feria, crisis de competidores, nueva ruta.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>mapa_mediterraneo</code></td><td>Mapa del mundo</td><td>Vertical 9:16, Mediterráneo de Gadir a Tiro, estilo pergamino pintado en pixel art, <b>sin texto</b>: yo pongo los nombres y las rutas. Debe incluir Tiro, Sidón, Biblos, Chipre, el delta del Nilo, Rodas, Creta, Cartago, Cerdeña y el estrecho de Gadir.</td><td><span class="pri">P2</span></td></tr>
+      <tr><td><code>escudo_tiro</code>, <code>_sidon</code>, <code>_biblos</code>, <code>_cartago</code>, <code>_gadir</code></td><td>Emblema de cada ciudad</td><td>Insignia redonda: Tiro con un barco, Sidón con vidrio, Biblos con un cedro, Cartago con el signo de Tanit, Gadir con dos columnas.</td><td><span class="pri">P2</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>4. Prompts para copiar</h2>
+  <p>Están en inglés porque la mayoría de las IAs de imagen responden mejor así. Usa siempre el <b>prompt base</b> más la línea de la pieza. Si tu IA admite un prompt negativo, añade el negativo.</p>
+
+  <div class="prompt"><header>Prompt base (siempre)<button class="copy" type="button">Copiar</button></header><pre>High-detail isometric pixel art game asset, true 2:1 isometric projection (horizontal edges at 26.57 degrees, vertical edges perfectly vertical, no perspective, no vanishing point), camera looking from the south showing the roof, the front-left wall and the front-right wall, main door on the front-left wall. Ancient Phoenician port city of Tyre, around 800 BC, Mediterranean: whitewashed limestone and mudbrick walls, flat roofs with parapets, some terracotta tile roofs, cedar wood beams, Tyrian purple fabric accents. Warm late-afternoon sunlight from the upper left: roof brightest, front-left wall lit, front-right wall in cool bluish shadow, a thin highlight on the front vertical edge. No cast shadow on the ground, only a 1-2 pixel dark contact shadow at the base. Crisp hard pixels, no anti-aliasing, no blur, no soft gradients, subtle ordered dithering allowed, limited earthy palette, 1-pixel outline in #120d16 on the outer silhouette only. Single object, centered, fully visible, isolated on a transparent background (or flat #FF00FF magenta), no ground beyond its footprint, no text, no letters, no signs, no UI, no frame.</pre></div>
+
+  <div class="prompt"><header>Prompt negativo<button class="copy" type="button">Copiar</button></header><pre>photorealistic, 3D render, painterly, oil painting, blurry, soft shading, airbrush, lens effects, bloom, text, letters, watermark, signature, logo, frame, border, perspective distortion, fisheye, top-down view, side view, multiple objects, cropped, cut off, background scenery, ground tiles, grass field, drop shadow, viking, medieval, gothic, greek parthenon, roman, fantasy, snow, pine trees, modern objects</pre></div>
+
+  <div class="prompt"><header>Ejemplo · Templo de Melqart<button class="copy" type="button">Copiar</button></header><pre>[PROMPT BASE] Subject: the Temple of Melqart, a Phoenician temple on a stepped limestone podium, footprint 6 by 5 tiles: a rectangular sanctuary with a low terracotta tile gable roof and a dark doorway, and in front of it two tall free-standing pillars, the left one of gold and the right one of green emerald, an incense altar with a thin wisp of smoke, small offering jars on the steps.</pre></div>
+
+  <div class="prompt"><header>Ejemplo · Almacén mediano<button class="copy" type="button">Copiar</button></header><pre>[PROMPT BASE] Subject: a Phoenician harbour warehouse, footprint 3 by 3 tiles, walls 1.8 tiles high: limestone block walls, terracotta tile gable roof with the ridge running toward the lower-right, a large arched cedar-wood door on the front-left wall, two small high windows, wooden crates and amphorae stacked beside the door.</pre></div>
+
+  <div class="prompt"><header>Ejemplo · Barco mercante<button class="copy" type="button">Copiar</button></header><pre>[PROMPT BASE] Subject: a Phoenician merchant ship (gaulos), length 9 tiles, bow pointing to the lower-right, drawn down to the waterline only with no water: wide rounded cedar-plank hull, high curved stern and bow, a carved horse-head figurehead, a painted eye on the bow, one square sail with vertical red and cream stripes on a single yard (sail raised), rigging ropes, a steering oar at the stern, amphorae stacked on deck.</pre></div>
+
+  <div class="prompt"><header>Ejemplo · Personaje (tira de caminar)<button class="copy" type="button">Copiar</button></header><pre>[PROMPT BASE] Subject: a sprite sheet of a Phoenician merchant character, about 4 heads tall, facing the lower-right in isometric view, 5 frames in one horizontal row with equal spacing: 1 standing idle pose and 4 walking frames. Cream knee-length tunic with a purple hem, leather sandals, a coin pouch on the belt, carrying a wicker basket. Same scale and baseline in every frame.</pre></div>
+
+  <div class="prompt"><header>Ejemplo · Icono de mercancía<button class="copy" type="button">Copiar</button></header><pre>Pixel art game item icon, square, three-quarter top view, same warm light from the upper left, crisp hard pixels, no anti-aliasing, 1-pixel #120d16 outline, the object fills about 80% of the square, transparent background, no text. Subject: [MERCANCÍA, p. ej. "a small clay jar of Tyrian purple dye with a few murex shells beside it"].</pre></div>
+</section>
+
+<section>
+  <h2>5. Cómo entregármelas</h2>
+  <ol>
+    <li>Un PNG por pieza, con el nombre de archivo de las tablas (por ejemplo <code>edif_almacen_mediano.png</code>).</li>
+    <li>Agrúpalas en carpetas: <code>edificios/</code>, <code>barcos/</code>, <code>personas/</code>, <code>objetos/</code>, <code>mercancias/</code>, <code>ui/</code>.</li>
+    <li>Empieza por las <b>P1</b>. Con ellas armo la primera versión jugable y comprobamos que encajan antes de que generes el resto.</li>
+    <li>Súbelas en un .zip a esta conversación o a tu repositorio de GitHub.</li>
+  </ol>
+  <p class="note">Lo que haga falta lo corrijo yo al integrarlas: recorte, escala, ajuste a la paleta, punto de apoyo en el suelo y espejado. Si alguna llega con la perspectiva torcida o la luz del lado contrario, te lo indico pieza por pieza. Mientras tanto, el juego usa el arte dibujado con código como sustituto, así que puedes entregarlas por partes.</p>
+</section>
+</div>
+
+<script>
+document.querySelectorAll('button.copy').forEach(b => b.addEventListener('click', () => {
+  const pre = b.closest('.prompt').querySelector('pre');
+  const done = () => { b.textContent = 'Copiado'; setTimeout(() => { b.textContent = 'Copiar'; }, 1600); };
+  const fallback = () => { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Seleccionado: copia con Ctrl+C'; };
+  try { navigator.clipboard.writeText(pre.textContent).then(done, fallback); } catch (e) { fallback(); }
+}));
+</script>

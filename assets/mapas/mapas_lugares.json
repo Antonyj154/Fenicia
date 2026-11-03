@@ -1,0 +1,142 @@
+{
+ "nota": "Coordenadas en píxeles del PNG de 1080x1920 (centro del lugar). x_nativo/y_nativo: rejilla nativa 270x480 (x4).",
+ "mapa_mediterraneo": {
+  "imagen": "mapa_mediterraneo.png",
+  "tamano": [
+   1080,
+   1920
+  ],
+  "orientacion": "este arriba, norte a la izquierda (la rosa marca el norte con la punta roja)",
+  "lugares": {
+   "tiro": {
+    "x": 750,
+    "y": 158,
+    "x_nativo": 187,
+    "y_nativo": 39,
+    "tipo": "ciudad"
+   },
+   "sidon": {
+    "x": 730,
+    "y": 142,
+    "x_nativo": 182,
+    "y_nativo": 35,
+    "tipo": "poblado"
+   },
+   "biblos": {
+    "x": 694,
+    "y": 118,
+    "x_nativo": 173,
+    "y_nativo": 29,
+    "tipo": "poblado"
+   },
+   "chipre": {
+    "x": 670,
+    "y": 246,
+    "x_nativo": 167,
+    "y_nativo": 61,
+    "tipo": "poblado"
+   },
+   "delta_nilo": {
+    "x": 870,
+    "y": 322,
+    "x_nativo": 217,
+    "y_nativo": 80,
+    "tipo": "poblado"
+   },
+   "rodas": {
+    "x": 610,
+    "y": 442,
+    "x_nativo": 152,
+    "y_nativo": 110,
+    "tipo": "poblado"
+   },
+   "creta": {
+    "x": 662,
+    "y": 562,
+    "x_nativo": 165,
+    "y_nativo": 140,
+    "tipo": "poblado"
+   },
+   "cartago": {
+    "x": 582,
+    "y": 1130,
+    "x_nativo": 145,
+    "y_nativo": 282,
+    "tipo": "poblado"
+   },
+   "cerdena": {
+    "x": 426,
+    "y": 1186,
+    "x_nativo": 106,
+    "y_nativo": 296,
+    "tipo": "poblado"
+   },
+   "estrecho_gadir": {
+    "x": 598,
+    "y": 1778,
+    "x_nativo": 149,
+    "y_nativo": 444,
+    "tipo": "poblado"
+   }
+  }
+ },
+ "mapa_region_tiro": {
+  "imagen": "mapa_region_tiro.png",
+  "tamano": [
+   1080,
+   1920
+  ],
+  "orientacion": "norte arriba",
+  "lugares": {
+   "tiro": {
+    "x": 326,
+    "y": 1122,
+    "x_nativo": 81,
+    "y_nativo": 280,
+    "tipo": "ciudad"
+   },
+   "ushu": {
+    "x": 378,
+    "y": 1186,
+    "x_nativo": 94,
+    "y_nativo": 296,
+    "tipo": "poblado"
+   },
+   "sarepta": {
+    "x": 490,
+    "y": 782,
+    "x_nativo": 122,
+    "y_nativo": 195,
+    "tipo": "poblado"
+   },
+   "sidon": {
+    "x": 598,
+    "y": 598,
+    "x_nativo": 149,
+    "y_nativo": 149,
+    "tipo": "ciudad"
+   },
+   "aczib": {
+    "x": 194,
+    "y": 1526,
+    "x_nativo": 48,
+    "y_nativo": 381,
+    "tipo": "poblado"
+   },
+   "cades": {
+    "x": 838,
+    "y": 1418,
+    "x_nativo": 209,
+    "y_nativo": 354,
+    "tipo": "poblado"
+   },
+   "salida_damasco": {
+    "x": 990,
+    "y": 1322,
+    "x_nativo": 247,
+    "y_nativo": 330,
+    "tipo": "flecha"
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "imagen": "barca_pesca_so.png",
+ "ancho_fotograma": 51,
+ "alto_fotograma": 36,
+ "fotogramas": 2,
+ "frames": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 51,
+   "h": 36
+  },
+  {
+   "x": 51,
+   "y": 0,
+   "w": 51,
+   "h": 36
+  }
+ ],
+ "orden": [
+  "remo_1",
+  "remo_2"
+ ],
+ "duracion_ms": 400,
+ "bucle": true,
+ "pivote": {
+  "x": 25,
+  "y": 22,
+  "nota": "centro de la línea de flotación"
+ },
+ "descripcion": "barca de pescadores con dos remeros (remos alternos), red a popa y cesta de peces a proa; dibujada hasta la flotación, sin agua",
+ "direccion": "abajo-izquierda (proa abajo a la izquierda)",
+ "huella": "≈ 3 × 1 casillas"
+}

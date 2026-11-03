@@ -1,0 +1,56 @@
+{
+  "image": "pj_vendedor_ofrecer.png",
+  "descripcion": "vendedor ofreciendo: sube el ánfora hacia el cliente y la baja",
+  "frame_size": {
+    "w": 20,
+    "h": 29
+  },
+  "direction": "abajo-derecha (espejar para abajo-izquierda)",
+  "pivot": {
+    "x": 11,
+    "y": 28,
+    "nota": "punto de apoyo entre los pies, última fila; igual que la tira de frente"
+  },
+  "frames": [
+    {
+      "name": "ofrecer_1",
+      "x": 0,
+      "y": 0,
+      "w": 20,
+      "h": 29,
+      "duration_ms": 200
+    },
+    {
+      "name": "ofrecer_2",
+      "x": 20,
+      "y": 0,
+      "w": 20,
+      "h": 29,
+      "duration_ms": 150
+    },
+    {
+      "name": "ofrecer_3",
+      "x": 40,
+      "y": 0,
+      "w": 20,
+      "h": 29,
+      "duration_ms": 500
+    },
+    {
+      "name": "ofrecer_4",
+      "x": 60,
+      "y": 0,
+      "w": 20,
+      "h": 29,
+      "duration_ms": 150
+    }
+  ],
+  "animations": {
+    "ofrecer": [
+      "ofrecer_1",
+      "ofrecer_2",
+      "ofrecer_3",
+      "ofrecer_4"
+    ]
+  }
+}

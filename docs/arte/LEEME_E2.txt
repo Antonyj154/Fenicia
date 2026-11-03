@@ -1,0 +1,72 @@
+FENICIA · Encargo 2 · Entrega P1
+Un PNG independiente por pieza, tamaño nativo, paleta Fenecia v2. Las tiras de personas llevan su JSON (frames y pivote).
+Decisiones: velocidad acelerada ×6 (no se entrega ui_x2).
+
+escudos/escudo_biblos.png  64x64
+escudos/escudo_cartago.png  64x64
+escudos/escudo_gadir.png  64x64
+escudos/escudo_sidon.png  64x64
+escudos/escudo_tiro.png  64x64
+ilustraciones/ciudad_biblos.png  480x300
+ilustraciones/ciudad_cartago.png  480x300
+ilustraciones/ciudad_gadir.png  480x300
+ilustraciones/ciudad_sidon.png  480x300
+ilustraciones/ciudad_tiro.png  480x300
+ilustraciones/inicio_fondo.png  1080x1920
+marcas/marca_alquilado.png  12x24
+marcas/marca_propio.png  12x24
+marcas/marca_solar.png  64x42
+personas/pj_cliente_1_espalda.png  100x29
+personas/pj_cliente_2_espalda.png  100x29
+personas/pj_cliente_3_espalda.png  100x35
+personas/pj_cliente_4_espalda.png  100x29
+personas/pj_jugador_espalda.png  100x29
+personas/pj_porteador_espalda.png  100x29
+personas/pj_vendedor_espalda.png  100x29
+personas/pj_vendedor_ofrecer.png  80x29
+ui/aviso_alerta.png  16x16
+ui/aviso_barco.png  16x16
+ui/aviso_contrato.png  16x16
+ui/aviso_dinero.png  16x16
+ui/aviso_evento.png  16x16
+ui/aviso_exito.png  16x16
+ui/aviso_hito.png  16x16
+ui/aviso_info.png  16x16
+ui/aviso_nivel.png  16x16
+ui/aviso_personal.png  16x16
+ui/dif_dificil.png  16x16
+ui/dif_facil.png  16x16
+ui/dif_media.png  16x16
+ui/fin_alquileres.png  16x16
+ui/fin_deuda.png  16x16
+ui/fin_impuestos.png  16x16
+ui/fin_intereses.png  16x16
+ui/fin_mercancia.png  16x16
+ui/fin_sueldos.png  16x16
+ui/fin_transporte.png  16x16
+ui/fin_ventas.png  16x16
+ui/hito_almacenes.png  24x24
+ui/hito_astillero.png  24x24
+ui/hito_comercio.png  24x24
+ui/hito_distribucion.png  24x24
+ui/hito_finanzas.png  24x24
+ui/hito_locales.png  24x24
+ui/hito_mar.png  24x24
+ui/hito_personal.png  24x24
+ui/hito_proveedores.png  24x24
+ui/hito_tierra.png  24x24
+ui/ind_estancado.png  12x12
+ui/ind_exceso.png  12x12
+ui/ind_sin_stock.png  12x12
+ui/ind_vende.png  12x12
+ui/ui_almacen.png  16x16
+ui/ui_avisos.png  24x24
+ui/ui_boton_circulo.png  40x40
+ui/ui_boton_circulo_activo.png  40x40
+ui/ui_contrato.png  24x24
+ui/ui_contrato_exclusivo.png  24x24
+ui/ui_distribuir.png  24x24
+ui/ui_info.png  16x16
+ui/ui_proveedores.png  24x24
+
+Pivotes de marcas en marcas/marcas.json. Ilustraciones (inicio y tarjetas) son opacas; lo demás, transparente.

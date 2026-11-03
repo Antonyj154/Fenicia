@@ -1,0 +1,117 @@
+<title>Balance económico FENICIA</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Marcellus&display=swap">
+<style>
+/* Informe de balance: libro de cuentas. Columna de lectura + tablas comparativas (simulado frente a GDD). */
+:root { --bg:#f6f3ee; --panel:#fffdf9; --ink:#221c2b; --muted:#6c6474; --line:#e2dbd2; --purple:#7a1f5c; --soft:#f3e4ee; --bronze:#9a6a2b; --good:#2f7d4f; --bad:#b3322d; --warn:#a86400; --chip:#efe9e1;
+  --display:"Marcellus","Palatino Linotype",Georgia,serif; --ui:"IBM Plex Sans",system-ui,sans-serif; --num:"IBM Plex Mono",ui-monospace,Menlo,monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#17131c; --panel:#201a27; --ink:#efe8f0; --muted:#a79fb0; --line:#352c3e; --purple:#d877b5; --soft:#3a2135; --bronze:#d6a35c; --good:#5cc28a; --bad:#f07a73; --warn:#e0a040; --chip:#2b2333; color-scheme:dark; } }
+:root[data-theme="dark"] { --bg:#17131c; --panel:#201a27; --ink:#efe8f0; --muted:#a79fb0; --line:#352c3e; --purple:#d877b5; --soft:#3a2135; --bronze:#d6a35c; --good:#5cc28a; --bad:#f07a73; --warn:#e0a040; --chip:#2b2333; color-scheme:dark; }
+* { box-sizing:border-box }
+body { background:var(--bg); color:var(--ink); font-family:var(--ui); font-size:15px; line-height:1.55; margin:0; }
+.wrap { max-width:980px; margin:0 auto; padding-left:max(16px, env(safe-area-inset-left,0px)); padding-right:max(16px, env(safe-area-inset-right,0px)); padding-block:32px 56px; display:grid; gap:28px; }
+header .eyebrow { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+h1 { font-family:var(--display); font-weight:400; font-size:clamp(28px,5vw,40px); margin:4px 0 8px; color:var(--purple); text-wrap:balance; }
+h2 { font-family:var(--display); font-weight:400; font-size:22px; margin:0 0 6px; text-wrap:balance; }
+p { margin:0; max-width:68ch; }
+.lede { font-size:17px; }
+.muted { color:var(--muted); }
+.facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+.fact { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; display:grid; gap:2px; }
+.fact b { font-family:var(--num); font-variant-numeric:tabular-nums; font-size:22px; font-weight:500; }
+.fact span { font-size:13px; color:var(--muted); }
+section { display:grid; gap:10px; min-width:0; }
+.tbl { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:10px; }
+table { width:100%; border-collapse:collapse; font-size:13.5px; }
+th { text-align:left; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-weight:600; padding:9px 10px; border-bottom:1px solid var(--line); white-space:nowrap; }
+th small { display:block; text-transform:none; letter-spacing:0; font-weight:400; }
+td { padding:8px 10px; border-bottom:1px solid var(--line); }
+tr:last-child td { border-bottom:0; }
+.n { text-align:right; font-family:var(--num); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.g { color:var(--muted); }
+.chip { display:inline-block; font-family:var(--num); font-size:12px; padding:1px 8px; border-radius:999px; background:var(--chip); }
+.chip.ok { color:var(--good); } .chip.hi { color:var(--warn); } .chip.lo { color:var(--bad); } .chip.mute { color:var(--muted); }
+ol.dec { margin:0; padding-left:22px; display:grid; gap:10px; max-width:72ch; }
+ol.dec b { color:var(--purple); font-weight:600; }
+.note { background:var(--soft); border-radius:10px; padding:12px 14px; max-width:72ch; }
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">FENICIA · Fase 1 · Motor económico</div>
+  <h1>Balance económico</h1>
+  <p class="lede">Un bot que juega como un comerciante sensato recorrió la partida completa en las cinco ciudades jugables, con 3 semillas por ciudad y hasta 1.500 ciclos. Así se ve la economía frente a la tabla §7 de tu GDD.</p>
+</header>
+
+<div class="facts">
+  <div class="fact"><b>3</b><span>ciclos hasta el primer trabajador (Tiro)</span></div>
+  <div class="fact"><b>112</b><span>ciclos hasta 1,5 M, hito del astillero (1.9 h a ×1)</span></div>
+  <div class="fact"><b>151</b><span>ciclos hasta el nivel 15 (Tiro, mediana)</span></div>
+  <div class="fact"><b>9/15</b><span>partidas que llegaron a 12 M sin quebrar</span></div>
+</div>
+
+<section>
+  <h2>Etapas del GDD §7, simulado frente a la tabla</h2>
+  <p class="muted">Tiro, promedio por ciclo mientras el negocio estuvo en cada etapa. La etiqueta indica cuántas veces la ganancia neta simulada supera o queda por debajo de la tabla; en verde, dentro de un rango de ×0,66 a ×1,5. Algunas etapas no aparecen porque el bot pasa por ellas en el mismo ciclo.</p>
+  <div class="tbl"><table>
+    <thead><tr><th class="n">Etapa</th><th>Modelo de negocio</th><th class="n">Desde ciclo</th><th class="n">Ingresos</th><th class="n">GDD</th><th class="n">Neto</th><th class="n">GDD</th><th>Desvío</th></tr></thead>
+    <tbody><tr><td class="n">1</td><td>Venta manual de 5 baratijas</td><td class="n">—</td>
+<td class="n">—</td><td class="n g">25</td>
+<td class="n">—</td><td class="n g">5</td><td><span class="chip mute">—</span></td></tr><tr><td class="n">2</td><td>Venta manual de 50 baratijas</td><td class="n">1</td>
+<td class="n">642</td><td class="n g">250</td>
+<td class="n">164</td><td class="n g">50</td><td><span class="chip hi">×3.3</span></td></tr><tr><td class="n">3</td><td>Primer trabajador</td><td class="n">6</td>
+<td class="n">2.879</td><td class="n g">500</td>
+<td class="n">690</td><td class="n g">50</td><td><span class="chip hi">×13.8</span></td></tr><tr><td class="n">4</td><td>Primer puesto alquilado</td><td class="n">7</td>
+<td class="n">3.093</td><td class="n g">1.000</td>
+<td class="n">660</td><td class="n g">100</td><td><span class="chip hi">×6.6</span></td></tr><tr><td class="n">5</td><td>Puesto y 2 trabajadores</td><td class="n">9</td>
+<td class="n">4.244</td><td class="n g">2.000</td>
+<td class="n">846</td><td class="n g">250</td><td><span class="chip hi">×3.4</span></td></tr><tr><td class="n">6</td><td>Primer local propio</td><td class="n">—</td>
+<td class="n">—</td><td class="n g">3.500</td>
+<td class="n">—</td><td class="n g">500</td><td><span class="chip mute">—</span></td></tr><tr><td class="n">7</td><td>Local propio y almacén</td><td class="n">18</td>
+<td class="n">8.072</td><td class="n g">6.000</td>
+<td class="n">1.869</td><td class="n g">1.050</td><td><span class="chip hi">×1.8</span></td></tr><tr><td class="n">8</td><td>Dos locales y 5 trabajadores</td><td class="n">—</td>
+<td class="n">—</td><td class="n g">12.000</td>
+<td class="n">—</td><td class="n g">2.300</td><td><span class="chip mute">—</span></td></tr><tr><td class="n">9</td><td>Negociación con proveedores</td><td class="n">—</td>
+<td class="n">—</td><td class="n g">20.000</td>
+<td class="n">—</td><td class="n g">4.900</td><td><span class="chip mute">—</span></td></tr><tr><td class="n">10</td><td>Distribución a comerciantes</td><td class="n">27</td>
+<td class="n">20.574</td><td class="n g">35.000</td>
+<td class="n">5.297</td><td class="n g">3.500</td><td><span class="chip hi">×1.5</span></td></tr><tr><td class="n">11</td><td>Primer barco alquilado</td><td class="n">33</td>
+<td class="n">41.590</td><td class="n g">55.000</td>
+<td class="n">6.477</td><td class="n g">7.000</td><td><span class="chip ok">×0.9</span></td></tr><tr><td class="n">12</td><td>Primera ruta automatizada</td><td class="n">40</td>
+<td class="n">81.459</td><td class="n g">90.000</td>
+<td class="n">15.899</td><td class="n g">13.000</td><td><span class="chip ok">×1.2</span></td></tr><tr><td class="n">13</td><td>Primer barco propio</td><td class="n">61</td>
+<td class="n">116.758</td><td class="n g">150.000</td>
+<td class="n">21.367</td><td class="n g">27.000</td><td><span class="chip ok">×0.8</span></td></tr><tr><td class="n">14</td><td>Flota de 3 barcos y contratos</td><td class="n">70</td>
+<td class="n">181.982</td><td class="n g">300.000</td>
+<td class="n">36.834</td><td class="n g">60.000</td><td><span class="chip lo">×0.6</span></td></tr><tr><td class="n">15</td><td>Astillero propio y red comercial</td><td class="n">354</td>
+<td class="n">178.063</td><td class="n g">600.000</td>
+<td class="n">20.000</td><td class="n g">130.000</td><td><span class="chip lo">×0.2</span></td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>Hitos por ciudad</h2>
+  <p class="muted">Ciclo en que se alcanza cada hito (mediana de 3 partidas). Un ciclo dura 60 s a ×1 y 10 s a ×6.</p>
+  <div class="tbl"><table><thead><tr><th class="n">Hito</th><th>Nombre</th><th class="n">Tiro<small>media</small></th><th class="n">Sidón<small>fácil</small></th><th class="n">Biblos<small>fácil</small></th><th class="n">Cartago<small>difícil</small></th><th class="n">Gadir<small>difícil</small></th></tr></thead><tbody><tr><td class="n">3</td><td>Primer trabajador</td><td class="n">3</td><td class="n">3</td><td class="n">4</td><td class="n">3</td><td class="n">3</td></tr><tr><td class="n">5</td><td>Alquiler de puesto comercial</td><td class="n">4</td><td class="n">5</td><td class="n">5</td><td class="n">5</td><td class="n">4</td></tr><tr><td class="n">10</td><td>Compra de local propio</td><td class="n">12</td><td class="n">11</td><td class="n">13</td><td class="n">16</td><td class="n">12</td></tr><tr><td class="n">14</td><td>Distribución a otros comerciantes</td><td class="n">26</td><td class="n">24</td><td class="n">26</td><td class="n">33</td><td class="n">27</td></tr><tr><td class="n">15</td><td>Alquiler de barco</td><td class="n">32</td><td class="n">30</td><td class="n">32</td><td class="n">40</td><td class="n">36</td></tr><tr><td class="n">20</td><td>Compra del primer barco</td><td class="n">45</td><td class="n">42</td><td class="n">41</td><td class="n">50</td><td class="n">53</td></tr><tr><td class="n">22</td><td>Préstamos</td><td class="n">51</td><td class="n">46</td><td class="n">47</td><td class="n">57</td><td class="n">57</td></tr><tr><td class="n">24</td><td>Compra de astillero</td><td class="n">112</td><td class="n">100</td><td class="n">119</td><td class="n">153</td><td class="n">208</td></tr><tr><td class="n">27</td><td>Compra de cargamentos a gran escala</td><td class="n">152</td><td class="n">135</td><td class="n">188</td><td class="n">301</td><td class="n">298</td></tr><tr><td class="n">29</td><td>Inversiones avanzadas</td><td class="n">381</td><td class="n">335</td><td class="n">409</td><td class="n">1091</td><td class="n">—</td></tr></tbody></table></div>
+  <div class="tbl"><table><thead><tr><th>Nivel</th><th class="n">Tiro<small>media</small></th><th class="n">Sidón<small>fácil</small></th><th class="n">Biblos<small>fácil</small></th><th class="n">Cartago<small>difícil</small></th><th class="n">Gadir<small>difícil</small></th></tr></thead><tbody><tr><td class="n">Nv 3</td><td class="n">4</td><td class="n">5</td><td class="n">5</td><td class="n">5</td><td class="n">4</td></tr><tr><td class="n">Nv 6</td><td class="n">12</td><td class="n">11</td><td class="n">13</td><td class="n">18</td><td class="n">12</td></tr><tr><td class="n">Nv 10</td><td class="n">35</td><td class="n">33</td><td class="n">35</td><td class="n">42</td><td class="n">39</td></tr><tr><td class="n">Nv 13</td><td class="n">53</td><td class="n">53</td><td class="n">55</td><td class="n">70</td><td class="n">76</td></tr><tr><td class="n">Nv 15</td><td class="n">151</td><td class="n">129</td><td class="n">160</td><td class="n">203</td><td class="n">280</td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>Qué está calibrado</h2>
+  <p>De la etapa 9 a la 14, ingresos y ganancias quedan en el orden de magnitud de la tabla. La ruta Tiro–Sidón cuesta unas 1.100 monedas, como en el ejemplo §14.4. El préstamo de ejemplo (10.000 → 11.500 en 10 cuotas de 1.150) y la negociación 100 / 85 / 90 se reproducen exactamente, y están cubiertos por pruebas automáticas. Las ciudades difíciles exigen más: Cartago y Gadir tardan entre 150 y 210 ciclos en llegar al astillero, frente a 100–120 en Sidón y Biblos.</p>
+</section>
+
+<section>
+  <h2>Decisiones que necesito de ti</h2>
+  <ol class="dec">
+    <li><b>Ritmo total.</b> Con la tabla §7 como referencia, 1,5 M llega hacia el ciclo 112: unas 1.9 h · 0.3 h (a ×1 · a ×6). ¿Es la duración que buscas para una progresión «extensa»? Si quieres más, lo estiro desde un único parámetro.</li>
+    <li><b>Final de partida.</b> Tras el astillero, la ganancia queda muy por debajo de la tabla: la etapa 15 da ≈ 20.000 netos por ciclo frente a 130.000. Una flota grande satura la demanda de los puertos, y parte de las partidas acaba en bancarrota. Los hitos 23 (participación en negocios), 28 (monopolios) y 29 (inversiones avanzadas) no tienen reglas en el GDD y son el sitio natural para esa economía. ¿Quieres que proponga sus reglas?</li>
+    <li><b>Inicio más ágil.</b> Las etapas 2 a 5 rinden de 3 a 14 veces lo que dice la tabla, porque las mercancías de niveles 2 a 5 se desbloquean pronto. Aun así, cada etapa dura pocos ciclos y el primer trabajador llega hacia el ciclo 3. ¿Lo dejo así o freno el arranque?</li>
+    <li><b>Préstamos.</b> Con interés total fijo por contrato, el plazo más largo siempre es el más barato por ciclo. ¿Hago que el interés crezca con el plazo?</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Reglas que propuse donde el GDD no decía nada</h2>
+  <div class="note">Mora escalonada: aviso → embargo de mercancía al 60% → renuncias y remate de activos al 50% → bancarrota con operaciones cerradas. No se puede vender en persona con el tiempo en pausa. El inventario de puestos, locales y almacenes funciona como un solo fondo. Vendedor 50, almacenero 70 y coordinador 150 por ciclo. Barco mercante: mantenimiento 1.600 y amarre 250 por ciclo. Todos los valores están en <code>balance.ts</code> y en <code>docs/BALANCE.md</code>.</div>
+</section>
+</div>

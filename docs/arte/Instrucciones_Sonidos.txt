@@ -1,0 +1,22 @@
+Sonidos
+AbrirInterfazEdificio = Al abrir cualquier interfaz como el mercado, el muelle, etc.
+AnuncioEmergente = Cuando se habilite una nueva funcionalidad y salga los nuevos anuncios emergentes mencionados en las mejoras.
+Compra_mercado = al tocar en cualquiera de los botones del mercado, ya sea los de comprar, negociar, aceptar contratos etc.
+notificación = Avisos que salen en la parte superior como cambios de impuestos, llegó un comerciante, etc.
+SeleccionMenu = Al seleccionar un mundo o tocar en Jugar en el menú principal
+
+Ambientes
+Menu = Musica del menú, repetida en bucle
+Muelle = Sonido ambiente que sonará al acercar la cámara al muelle, repetida en bucle
+Pueblo = Sonido ambiente que sonará en todo el pueblo cuando No estás en el muelle, repetida en bucle.
+
+Musica Ingame
+Todas estas pistas son pistas del juego, que pueden ser modificadas su volumen o apagarse desde las configuraciones. 
+la música debe pausarse cuando el juego se pause, NO se acelera aunque el jugador acelere el tiempo.
+Musicajuego01 
+Musicajuego02
+Musicajuego03
+Musicajuego04
+Musicajuego05
+Musicajuego06
+Musicajuego07

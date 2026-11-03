@@ -1,0 +1,27 @@
+Fenecia · Encargo 2 · Tanda P3 (grandes + pequeñas)
+
+Cada pieza es un PNG independiente a tamaño nativo, con fondo transparente y alfa binario. Solo colores de la paleta v2 (paleta_fenecia.json/.gpl/.png). Contorno exterior de 1 px #120d16. Luz desde arriba a la izquierda. Sin sombras proyectadas.
+
+TILE Y PIVOTES
+- Tile isométrico 2:1 de 32×16. Ancho de una base W×D = (W+D)×16 px.
+- Edificios, murallas, costa, barcos en construcción y mostradores: pivote en el centro de la base, en el vértice inferior de la huella (última fila con píxeles). Los tres barco_construccion comparten lienzo (189×155) y se colocan igual.
+- barco_avanzado _izada/_recogida (246 px de ancho): pivote en el centro de la línea de flotación. En _se es x=122, y=256 en _recogida (y=257 en _izada, que tiene 1 fila más arriba por el mástil); en _so es x=123 con la misma y. Por debajo quedan filas transparentes, para que coincida con la tira de remos.
+- Tiras: el pivote y los fotogramas están en el JSON de al lado de cada tira.
+
+TIRAS Y MILISEGUNDOS
+- barcos/barco_avanzado_se_remos y _so_remos: 4 fotogramas de 251×281 a 180 ms, en bucle. El JSON da el offset del sprite _recogida dentro del fotograma.
+- costa/faro: 2 fotogramas de 64×142 a 220 ms (llama), en bucle; pivote x=32, y=141.
+- personas/pj_sacerdote, pj_extranjero y pj_guardia (de frente y _espalda): 5 fotogramas de 20×29, quieto a 600 ms y caminar 1–4 a 140 ms; pivote x=11, y=28. De frente miran abajo-derecha y _espalda arriba-derecha; espejar para el otro lado.
+- carretas/carreta_bueyes_* y caravana_camellos_* (se/so/ne/no): 4 fotogramas de marcha a 150 ms; el pivote fijo está en cada JSON.
+- barcos/barca_pesca_se y _so: 2 fotogramas de remo a 400 ms; pivote en el centro de la línea de flotación (en el JSON).
+- marcas/marca_lleno.png: 16×16, pivote x=3, y=15 (pie del poste), en marcas/marcas.json. objetos/obj_mostrador_*: 34×40, pivote x=17, y=32, en objetos/obj_mostradores.json.
+
+MURALLA (columna c crece hacia abajo-derecha, fila f hacia abajo-izquierda; (c,f) = casilla de arriba de la huella)
+- muralla_tramo (4×1) corre hacia abajo-derecha. Se encadena poniendo el siguiente en c+4, misma f.
+- muralla_tramo_b (1×4) es el mismo tramo, corriendo hacia arriba-derecha. Se encadena en f−4, misma c.
+- muralla_esquina (2×2) es una L con el vértice delante. Si está en (c,f): por la izquierda empalma con un muralla_tramo en (c−4, f+1), y por arriba-derecha con un muralla_tramo_b en (c+1, f−4).
+- muralla_torre (2×2) remata cualquier extremo. Delante de un tramo, la torre va en (c−2, f−1) si el tramo está en (c,f). Al final de un tramo_b en (c,f), la torre va en (c−1, f−2).
+- escollera (3×1) sigue la dirección de muralla_tramo; escollera_b (1×3) sigue la de muralla_tramo_b.
+
+LOGO
+- ilustraciones/logo_fenicia.png: 1200×400, dibujo nativo de 300×100 ampliado ×4 con vecino más próximo. Letras de piedra con borde de bronce, olas y barco. Texto «FENICIA» revisado letra a letra. La vela del barco tapa un poco la base de la pata derecha de la A.

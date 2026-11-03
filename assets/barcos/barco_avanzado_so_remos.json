@@ -1,0 +1,51 @@
+{
+ "imagen": "barco_avanzado_so_remos.png",
+ "ancho_fotograma": 251,
+ "alto_fotograma": 281,
+ "fotogramas": 4,
+ "frames": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 251,
+   "h": 281
+  },
+  {
+   "x": 251,
+   "y": 0,
+   "w": 251,
+   "h": 281
+  },
+  {
+   "x": 502,
+   "y": 0,
+   "w": 251,
+   "h": 281
+  },
+  {
+   "x": 753,
+   "y": 0,
+   "w": 251,
+   "h": 281
+  }
+ ],
+ "orden": [
+  "ataque",
+  "palada",
+  "final",
+  "recobro"
+ ],
+ "duracion_ms": 180,
+ "bucle": true,
+ "pivote": {
+  "x": 123,
+  "y": 256,
+  "nota": "centro de la línea de flotación"
+ },
+ "sprite_quieto": "barco_avanzado_so_recogida.png",
+ "offset_sprite_quieto": {
+  "x": 0,
+  "y": 0,
+  "nota": "posición del sprite _recogida dentro del fotograma"
+ }
+}

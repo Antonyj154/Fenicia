@@ -1,0 +1,31 @@
+{
+ "imagen": "faro.png",
+ "ancho_fotograma": 64,
+ "alto_fotograma": 142,
+ "fotogramas": 2,
+ "frames": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 142
+  },
+  {
+   "x": 64,
+   "y": 0,
+   "w": 64,
+   "h": 142
+  }
+ ],
+ "orden": [
+  "llama_1",
+  "llama_2"
+ ],
+ "duracion_ms": 220,
+ "bucle": true,
+ "pivote": {
+  "x": 32,
+  "y": 141,
+  "nota": "vértice inferior de la base 2x2 (abajo en el centro)"
+ }
+}

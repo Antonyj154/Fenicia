@@ -1,0 +1,60 @@
+{
+  "marca_propio.png": {
+    "size": [
+      12,
+      24
+    ],
+    "pivot": {
+      "x": 3,
+      "y": 23
+    },
+    "nota": "pie del mástil; se coloca sobre el tejado del edificio"
+  },
+  "marca_alquilado.png": {
+    "size": [
+      12,
+      24
+    ],
+    "pivot": {
+      "x": 3,
+      "y": 23
+    },
+    "nota": "pie del mástil; se coloca sobre el tejado del edificio"
+  },
+  "marca_solar.png": {
+    "size": [
+      64,
+      42
+    ],
+    "footprint": "2x2",
+    "pivot": {
+      "x": 32,
+      "y": 41
+    },
+    "nota": "vértice inferior de la huella 2×2 (64×32); se apoya en el suelo como los edificios"
+  },
+  "marca_andamio.png": {
+    "size": [
+      64,
+      70
+    ],
+    "footprint": "2x2",
+    "pivot": {
+      "x": 32,
+      "y": 69
+    },
+    "nota": "vértice inferior de la huella 2×2 (64×32); se dibuja encima del edificio en ocupación o mejora (interior transparente)",
+    "escalable": "módulo de 32×16 px por casilla de huella y 12 px por piso; andamio(n, niveles) en referencias/scripts/marca_andamio.py genera 1×1, 3×3… o más pisos"
+  },
+  "marca_lleno.png": {
+    "size": [
+      16,
+      16
+    ],
+    "pivot": {
+      "x": 3,
+      "y": 15
+    },
+    "nota": "pie del poste; cartel colgante con un cántaro = local lleno, sin plazas. Se coloca junto a la puerta del local o sobre su tejado"
+  }
+}

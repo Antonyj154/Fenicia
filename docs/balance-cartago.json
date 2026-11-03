@@ -1,0 +1,3015 @@
+{
+ "city": "cartago",
+ "seeds": 3,
+ "maxCycles": 1500,
+ "milestones": [
+  {
+   "id": 1,
+   "name": "Compra y venta manual",
+   "cycle": 0,
+   "reachedBy": 3
+  },
+  {
+   "id": 2,
+   "name": "Nuevos productos",
+   "cycle": 1,
+   "reachedBy": 3
+  },
+  {
+   "id": 3,
+   "name": "Primer trabajador",
+   "cycle": 3,
+   "reachedBy": 3
+  },
+  {
+   "id": 4,
+   "name": "Automatización de ventas",
+   "cycle": 10,
+   "reachedBy": 3
+  },
+  {
+   "id": 5,
+   "name": "Alquiler de puesto comercial",
+   "cycle": 5,
+   "reachedBy": 3
+  },
+  {
+   "id": 6,
+   "name": "Costos de alquiler y mantenimiento",
+   "cycle": 10,
+   "reachedBy": 3
+  },
+  {
+   "id": 7,
+   "name": "Contratación de más trabajadores",
+   "cycle": 6,
+   "reachedBy": 3
+  },
+  {
+   "id": 8,
+   "name": "Alquiler de almacén",
+   "cycle": 8,
+   "reachedBy": 3
+  },
+  {
+   "id": 9,
+   "name": "Gestión de inventario y especulación",
+   "cycle": 10,
+   "reachedBy": 3
+  },
+  {
+   "id": 10,
+   "name": "Compra de local propio",
+   "cycle": 16,
+   "reachedBy": 3
+  },
+  {
+   "id": 11,
+   "name": "Negociación con proveedores",
+   "cycle": 20,
+   "reachedBy": 3
+  },
+  {
+   "id": 12,
+   "name": "Compra mayorista",
+   "cycle": 37,
+   "reachedBy": 3
+  },
+  {
+   "id": 13,
+   "name": "Adquisición de más establecimientos",
+   "cycle": 26,
+   "reachedBy": 3
+  },
+  {
+   "id": 14,
+   "name": "Distribución a otros comerciantes",
+   "cycle": 33,
+   "reachedBy": 3
+  },
+  {
+   "id": 15,
+   "name": "Alquiler de barco",
+   "cycle": 40,
+   "reachedBy": 3
+  },
+  {
+   "id": 16,
+   "name": "Contratación de capitán y tripulación",
+   "cycle": 41,
+   "reachedBy": 3
+  },
+  {
+   "id": 17,
+   "name": "Financiación de expediciones",
+   "cycle": 44,
+   "reachedBy": 3
+  },
+  {
+   "id": 18,
+   "name": "Logística marítima",
+   "cycle": 58,
+   "reachedBy": 3
+  },
+  {
+   "id": 19,
+   "name": "Automatización de rutas",
+   "cycle": 71,
+   "reachedBy": 3
+  },
+  {
+   "id": 20,
+   "name": "Compra del primer barco",
+   "cycle": 50,
+   "reachedBy": 3
+  },
+  {
+   "id": 21,
+   "name": "Contratación de varios capitanes",
+   "cycle": 108,
+   "reachedBy": 3
+  },
+  {
+   "id": 22,
+   "name": "Préstamos",
+   "cycle": 57,
+   "reachedBy": 3
+  },
+  {
+   "id": 23,
+   "name": "Participación en otros negocios",
+   "cycle": 74,
+   "reachedBy": 3
+  },
+  {
+   "id": 24,
+   "name": "Compra de astillero",
+   "cycle": 153,
+   "reachedBy": 3
+  },
+  {
+   "id": 25,
+   "name": "Construcción y reparación de barcos",
+   "cycle": 464,
+   "reachedBy": 3
+  },
+  {
+   "id": 26,
+   "name": "Contratos internacionales",
+   "cycle": 140,
+   "reachedBy": 3
+  },
+  {
+   "id": 27,
+   "name": "Compra de cargamentos a gran escala",
+   "cycle": 301,
+   "reachedBy": 3
+  },
+  {
+   "id": 28,
+   "name": "Monopolios comerciales",
+   "reachedBy": 0
+  },
+  {
+   "id": 29,
+   "name": "Inversiones avanzadas",
+   "cycle": 1091,
+   "reachedBy": 1
+  }
+ ],
+ "levels": [
+  {
+   "level": 1,
+   "cycle": 0,
+   "reachedBy": 3
+  },
+  {
+   "level": 2,
+   "cycle": 3,
+   "reachedBy": 3
+  },
+  {
+   "level": 3,
+   "cycle": 5,
+   "reachedBy": 3
+  },
+  {
+   "level": 4,
+   "cycle": 6,
+   "reachedBy": 3
+  },
+  {
+   "level": 5,
+   "cycle": 7,
+   "reachedBy": 3
+  },
+  {
+   "level": 6,
+   "cycle": 18,
+   "reachedBy": 3
+  },
+  {
+   "level": 7,
+   "cycle": 20,
+   "reachedBy": 3
+  },
+  {
+   "level": 8,
+   "cycle": 30,
+   "reachedBy": 3
+  },
+  {
+   "level": 9,
+   "cycle": 37,
+   "reachedBy": 3
+  },
+  {
+   "level": 10,
+   "cycle": 42,
+   "reachedBy": 3
+  },
+  {
+   "level": 11,
+   "cycle": 48,
+   "reachedBy": 3
+  },
+  {
+   "level": 12,
+   "cycle": 52,
+   "reachedBy": 3
+  },
+  {
+   "level": 13,
+   "cycle": 70,
+   "reachedBy": 3
+  },
+  {
+   "level": 14,
+   "cycle": 108,
+   "reachedBy": 3
+  },
+  {
+   "level": 15,
+   "cycle": 203,
+   "reachedBy": 3
+  }
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "cycle": 0
+  },
+  {
+   "rank": 2,
+   "cycle": 13
+  },
+  {
+   "rank": 3,
+   "cycle": 27
+  },
+  {
+   "rank": 4,
+   "cycle": 48
+  },
+  {
+   "rank": 5,
+   "cycle": 70
+  },
+  {
+   "rank": 6,
+   "cycle": 100
+  },
+  {
+   "rank": 7,
+   "cycle": 161
+  },
+  {
+   "rank": 8,
+   "cycle": 297
+  },
+  {
+   "rank": 9,
+   "cycle": 916
+  },
+  {
+   "rank": 10
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "name": "Venta manual de 5 baratijas",
+   "gdd": {
+    "rev": 25,
+    "varc": 20,
+    "fixed": 0,
+    "net": 5
+   },
+   "first": 2,
+   "cycles": 1,
+   "sim": {
+    "rev": 155,
+    "varc": 115.42,
+    "fixed": 0,
+    "net": 39.58
+   }
+  },
+  {
+   "n": 2,
+   "name": "Venta manual de 50 baratijas",
+   "gdd": {
+    "rev": 250,
+    "varc": 200,
+    "fixed": 0,
+    "net": 50
+   },
+   "first": 1,
+   "cycles": 8,
+   "sim": {
+    "rev": 1032.1898148148148,
+    "varc": 773.8125,
+    "fixed": 0,
+    "net": 258.3773148148148
+   }
+  },
+  {
+   "n": 3,
+   "name": "Primer trabajador",
+   "gdd": {
+    "rev": 500,
+    "varc": 400,
+    "fixed": 50,
+    "net": 50
+   },
+   "first": 10,
+   "cycles": 2,
+   "sim": {
+    "rev": 2772.25,
+    "varc": 2068.715,
+    "fixed": 60,
+    "net": 643.535
+   }
+  },
+  {
+   "n": 4,
+   "name": "Primer puesto alquilado",
+   "gdd": {
+    "rev": 1000,
+    "varc": 800,
+    "fixed": 100,
+    "net": 100
+   },
+   "first": 7,
+   "cycles": 3,
+   "sim": {
+    "rev": 2113.6666666666665,
+    "varc": 1620.93,
+    "fixed": 138.33333333333334,
+    "net": 354.40333333333336
+   }
+  },
+  {
+   "n": 5,
+   "name": "Puesto y 2 trabajadores",
+   "gdd": {
+    "rev": 2000,
+    "varc": 1600,
+    "fixed": 150,
+    "net": 250
+   },
+   "first": 10,
+   "cycles": 14,
+   "sim": {
+    "rev": 3919.6589635854343,
+    "varc": 2937.797198879552,
+    "fixed": 291.4005602240896,
+    "net": 690.4612044817926
+   }
+  },
+  {
+   "n": 6,
+   "name": "Primer local propio",
+   "gdd": {
+    "rev": 3500,
+    "varc": 2800,
+    "fixed": 200,
+    "net": 500
+   },
+   "sim": {}
+  },
+  {
+   "n": 7,
+   "name": "Local propio y almacén",
+   "gdd": {
+    "rev": 6000,
+    "varc": 4600,
+    "fixed": 350,
+    "net": 1050
+   },
+   "first": 24,
+   "cycles": 9,
+   "sim": {
+    "rev": 7520.273544973545,
+    "varc": 5568.345582010584,
+    "fixed": 349.6666666666667,
+    "net": 1602.2612962962965
+   }
+  },
+  {
+   "n": 8,
+   "name": "Dos locales y 5 trabajadores",
+   "gdd": {
+    "rev": 12000,
+    "varc": 9000,
+    "fixed": 700,
+    "net": 2300
+   },
+   "sim": {}
+  },
+  {
+   "n": 9,
+   "name": "Negociación con proveedores",
+   "gdd": {
+    "rev": 20000,
+    "varc": 14000,
+    "fixed": 1100,
+    "net": 4900
+   },
+   "sim": {}
+  },
+  {
+   "n": 10,
+   "name": "Distribución a comerciantes",
+   "gdd": {
+    "rev": 35000,
+    "varc": 30000,
+    "fixed": 1500,
+    "net": 3500
+   },
+   "first": 34,
+   "cycles": 8,
+   "sim": {
+    "rev": 15094.85119047619,
+    "varc": 11235.710892857142,
+    "fixed": 527.1666666666666,
+    "net": 3331.973630952381
+   }
+  },
+  {
+   "n": 11,
+   "name": "Primer barco alquilado",
+   "gdd": {
+    "rev": 55000,
+    "varc": 40000,
+    "fixed": 8000,
+    "net": 7000
+   },
+   "first": 41,
+   "cycles": 32,
+   "sim": {
+    "rev": 61261.69742564534,
+    "varc": 47258.308529391135,
+    "fixed": 1491.8897306397305,
+    "net": 11211.801233164982
+   }
+  },
+  {
+   "n": 12,
+   "name": "Primera ruta automatizada",
+   "gdd": {
+    "rev": 90000,
+    "varc": 65000,
+    "fixed": 12000,
+    "net": 13000
+   },
+   "first": 73,
+   "cycles": 42,
+   "sim": {
+    "rev": 65847.80976800977,
+    "varc": 51177.434093610085,
+    "fixed": 2542.300203500204,
+    "net": 11076.079774928776
+   }
+  },
+  {
+   "n": 13,
+   "name": "Primer barco propio",
+   "gdd": {
+    "rev": 150000,
+    "varc": 105000,
+    "fixed": 18000,
+    "net": 27000
+   },
+   "first": 108,
+   "cycles": 283,
+   "sim": {
+    "rev": 117181.75763376795,
+    "varc": 87622.11100695473,
+    "fixed": 7194.249557583037,
+    "net": 17676.186991377024
+   }
+  },
+  {
+   "n": 14,
+   "name": "Flota de 3 barcos y contratos",
+   "gdd": {
+    "rev": 300000,
+    "varc": 205000,
+    "fixed": 35000,
+    "net": 60000
+   },
+   "first": 140,
+   "cycles": 39,
+   "sim": {
+    "rev": 64748.518315018315,
+    "varc": 48412.15382783882,
+    "fixed": 8870.981684981685,
+    "net": 5125.734175824175
+   }
+  },
+  {
+   "n": 15,
+   "name": "Astillero propio y red comercial",
+   "gdd": {
+    "rev": 600000,
+    "varc": 400000,
+    "fixed": 70000,
+    "net": 130000
+   },
+   "first": 464,
+   "cycles": 1037,
+   "sim": {
+    "rev": 170284.1138554047,
+    "varc": 132027.98390960324,
+    "fixed": 26480.448636135126,
+    "net": -501.1517240341068
+   }
+  }
+ ],
+ "curve": [
+  {
+   "cycle": 1,
+   "netWorth": 91,
+   "level": 1,
+   "cash": 0,
+   "profit": 71
+  },
+  {
+   "cycle": 2,
+   "netWorth": 141,
+   "level": 1,
+   "cash": 1,
+   "profit": 50
+  },
+  {
+   "cycle": 3,
+   "netWorth": 269,
+   "level": 2,
+   "cash": 0,
+   "profit": 136
+  },
+  {
+   "cycle": 4,
+   "netWorth": 391,
+   "level": 2,
+   "cash": 15,
+   "profit": 110
+  },
+  {
+   "cycle": 5,
+   "netWorth": 605,
+   "level": 3,
+   "cash": 73,
+   "profit": 207
+  },
+  {
+   "cycle": 6,
+   "netWorth": 819,
+   "level": 4,
+   "cash": 1,
+   "profit": 245
+  },
+  {
+   "cycle": 7,
+   "netWorth": 1187,
+   "level": 4,
+   "cash": 1,
+   "profit": 389
+  },
+  {
+   "cycle": 8,
+   "netWorth": 1992,
+   "level": 5,
+   "cash": 1,
+   "profit": 819
+  },
+  {
+   "cycle": 9,
+   "netWorth": 2609,
+   "level": 5,
+   "cash": 162,
+   "profit": 574
+  },
+  {
+   "cycle": 10,
+   "netWorth": 3297,
+   "level": 5,
+   "cash": 1153,
+   "profit": 789
+  },
+  {
+   "cycle": 11,
+   "netWorth": 3571,
+   "level": 5,
+   "cash": 1563,
+   "profit": 264
+  },
+  {
+   "cycle": 12,
+   "netWorth": 3720,
+   "level": 5,
+   "cash": 1743,
+   "profit": 123
+  },
+  {
+   "cycle": 13,
+   "netWorth": 4367,
+   "level": 5,
+   "cash": 2353,
+   "profit": 552
+  },
+  {
+   "cycle": 14,
+   "netWorth": 5106,
+   "level": 6,
+   "cash": 3081,
+   "profit": 732
+  },
+  {
+   "cycle": 15,
+   "netWorth": 5739,
+   "level": 6,
+   "cash": 2510,
+   "profit": 735
+  },
+  {
+   "cycle": 16,
+   "netWorth": 6247,
+   "level": 6,
+   "cash": 3013,
+   "profit": 460
+  },
+  {
+   "cycle": 17,
+   "netWorth": 6793,
+   "level": 6,
+   "cash": 3540,
+   "profit": 509
+  },
+  {
+   "cycle": 18,
+   "netWorth": 7172,
+   "level": 6,
+   "cash": 3964,
+   "profit": 424
+  },
+  {
+   "cycle": 19,
+   "netWorth": 8692,
+   "level": 6,
+   "cash": 5507,
+   "profit": 1488
+  },
+  {
+   "cycle": 20,
+   "netWorth": 10248,
+   "level": 7,
+   "cash": 5039,
+   "profit": 1808
+  },
+  {
+   "cycle": 21,
+   "netWorth": 11170,
+   "level": 7,
+   "cash": 6027,
+   "profit": 841
+  },
+  {
+   "cycle": 22,
+   "netWorth": 11949,
+   "level": 7,
+   "cash": 6965,
+   "profit": 836
+  },
+  {
+   "cycle": 23,
+   "netWorth": 12469,
+   "level": 7,
+   "cash": 2607,
+   "profit": 535
+  },
+  {
+   "cycle": 24,
+   "netWorth": 13253,
+   "level": 7,
+   "cash": 3400,
+   "profit": 648
+  },
+  {
+   "cycle": 25,
+   "netWorth": 14337,
+   "level": 7,
+   "cash": 4218,
+   "profit": 761
+  },
+  {
+   "cycle": 26,
+   "netWorth": 17484,
+   "level": 7,
+   "cash": 7341,
+   "profit": 3223
+  },
+  {
+   "cycle": 27,
+   "netWorth": 18263,
+   "level": 7,
+   "cash": 5669,
+   "profit": 975
+  },
+  {
+   "cycle": 28,
+   "netWorth": 19544,
+   "level": 7,
+   "cash": 9262,
+   "profit": 1055
+  },
+  {
+   "cycle": 29,
+   "netWorth": 20962,
+   "level": 8,
+   "cash": 7924,
+   "profit": 1409
+  },
+  {
+   "cycle": 30,
+   "netWorth": 23883,
+   "level": 8,
+   "cash": 10232,
+   "profit": 3321
+  },
+  {
+   "cycle": 31,
+   "netWorth": 25813,
+   "level": 8,
+   "cash": 11979,
+   "profit": 1615
+  },
+  {
+   "cycle": 32,
+   "netWorth": 27446,
+   "level": 8,
+   "cash": 13554,
+   "profit": 1622
+  },
+  {
+   "cycle": 33,
+   "netWorth": 28709,
+   "level": 8,
+   "cash": 10424,
+   "profit": 1425
+  },
+  {
+   "cycle": 34,
+   "netWorth": 30096,
+   "level": 8,
+   "cash": 16478,
+   "profit": 1537
+  },
+  {
+   "cycle": 35,
+   "netWorth": 31784,
+   "level": 8,
+   "cash": 13842,
+   "profit": 1591
+  },
+  {
+   "cycle": 36,
+   "netWorth": 35203,
+   "level": 8,
+   "cash": 18222,
+   "profit": 2917
+  },
+  {
+   "cycle": 37,
+   "netWorth": 40501,
+   "level": 9,
+   "cash": 13570,
+   "profit": 6265
+  },
+  {
+   "cycle": 38,
+   "netWorth": 46223,
+   "level": 9,
+   "cash": 19271,
+   "profit": 5332
+  },
+  {
+   "cycle": 39,
+   "netWorth": 51628,
+   "level": 9,
+   "cash": 24997,
+   "profit": 5631
+  },
+  {
+   "cycle": 40,
+   "netWorth": 70597,
+   "level": 10,
+   "cash": 22600,
+   "profit": 18381
+  },
+  {
+   "cycle": 41,
+   "netWorth": 77739,
+   "level": 10,
+   "cash": 1339,
+   "profit": 7603
+  },
+  {
+   "cycle": 42,
+   "netWorth": 83832,
+   "level": 10,
+   "cash": 89,
+   "profit": 6266
+  },
+  {
+   "cycle": 43,
+   "netWorth": 98219,
+   "level": 10,
+   "cash": 1354,
+   "profit": 4736
+  },
+  {
+   "cycle": 44,
+   "netWorth": 97651,
+   "level": 10,
+   "cash": 7,
+   "profit": 9121
+  },
+  {
+   "cycle": 45,
+   "netWorth": 121364,
+   "level": 10,
+   "cash": 1289,
+   "profit": 23127
+  },
+  {
+   "cycle": 46,
+   "netWorth": 124027,
+   "level": 10,
+   "cash": 86,
+   "profit": 1857
+  },
+  {
+   "cycle": 47,
+   "netWorth": 135538,
+   "level": 10,
+   "cash": 720,
+   "profit": -174
+  },
+  {
+   "cycle": 48,
+   "netWorth": 128426,
+   "level": 11,
+   "cash": 962,
+   "profit": 5336
+  },
+  {
+   "cycle": 49,
+   "netWorth": 159281,
+   "level": 11,
+   "cash": 1253,
+   "profit": 33296
+  },
+  {
+   "cycle": 50,
+   "netWorth": 159913,
+   "level": 11,
+   "cash": 134,
+   "profit": 341
+  },
+  {
+   "cycle": 51,
+   "netWorth": 187933,
+   "level": 11,
+   "cash": 7207,
+   "profit": 1209
+  },
+  {
+   "cycle": 52,
+   "netWorth": 185103,
+   "level": 12,
+   "cash": 230,
+   "profit": 21816
+  },
+  {
+   "cycle": 53,
+   "netWorth": 225984,
+   "level": 12,
+   "cash": 1489,
+   "profit": 40311
+  },
+  {
+   "cycle": 54,
+   "netWorth": 248446,
+   "level": 12,
+   "cash": 41,
+   "profit": 24070
+  },
+  {
+   "cycle": 55,
+   "netWorth": 292925,
+   "level": 12,
+   "cash": 2816,
+   "profit": 7148
+  },
+  {
+   "cycle": 56,
+   "netWorth": 277903,
+   "level": 12,
+   "cash": 11047,
+   "profit": 18283
+  },
+  {
+   "cycle": 57,
+   "netWorth": 318114,
+   "level": 12,
+   "cash": 105898,
+   "profit": 41086
+  },
+  {
+   "cycle": 58,
+   "netWorth": 298043,
+   "level": 12,
+   "cash": 90,
+   "profit": -22530
+  },
+  {
+   "cycle": 59,
+   "netWorth": 327790,
+   "level": 12,
+   "cash": 8645,
+   "profit": 6885
+  },
+  {
+   "cycle": 60,
+   "netWorth": 314722,
+   "level": 12,
+   "cash": 915,
+   "profit": 4674
+  },
+  {
+   "cycle": 61,
+   "netWorth": 363413,
+   "level": 12,
+   "cash": 109412,
+   "profit": 49688
+  },
+  {
+   "cycle": 66,
+   "netWorth": 386323,
+   "level": 12,
+   "cash": 201209,
+   "profit": 12654
+  },
+  {
+   "cycle": 71,
+   "netWorth": 517821,
+   "level": 13,
+   "cash": 147256,
+   "profit": 14465
+  },
+  {
+   "cycle": 76,
+   "netWorth": 502897,
+   "level": 13,
+   "cash": 44,
+   "profit": 17408
+  },
+  {
+   "cycle": 81,
+   "netWorth": 575294,
+   "level": 13,
+   "cash": 2751,
+   "profit": 7599
+  },
+  {
+   "cycle": 86,
+   "netWorth": 619959,
+   "level": 13,
+   "cash": 1108,
+   "profit": 6163
+  },
+  {
+   "cycle": 91,
+   "netWorth": 707927,
+   "level": 13,
+   "cash": 32822,
+   "profit": 4781
+  },
+  {
+   "cycle": 96,
+   "netWorth": 729506,
+   "level": 13,
+   "cash": 42112,
+   "profit": -18714
+  },
+  {
+   "cycle": 101,
+   "netWorth": 840893,
+   "level": 14,
+   "cash": 2555,
+   "profit": 2423
+  },
+  {
+   "cycle": 106,
+   "netWorth": 916334,
+   "level": 14,
+   "cash": 101256,
+   "profit": 12874
+  },
+  {
+   "cycle": 111,
+   "netWorth": 1019451,
+   "level": 14,
+   "cash": 174929,
+   "profit": 4385
+  },
+  {
+   "cycle": 116,
+   "netWorth": 1024391,
+   "level": 14,
+   "cash": 203,
+   "profit": 16827
+  },
+  {
+   "cycle": 121,
+   "netWorth": 1010893,
+   "level": 14,
+   "cash": 102,
+   "profit": 988
+  },
+  {
+   "cycle": 126,
+   "netWorth": 1147554,
+   "level": 14,
+   "cash": 33,
+   "profit": -3278
+  },
+  {
+   "cycle": 131,
+   "netWorth": 1146013,
+   "level": 14,
+   "cash": 209,
+   "profit": -38
+  },
+  {
+   "cycle": 136,
+   "netWorth": 1130317,
+   "level": 14,
+   "cash": 0,
+   "profit": -5431
+  },
+  {
+   "cycle": 141,
+   "netWorth": 1249583,
+   "level": 14,
+   "cash": 89,
+   "profit": 1034
+  },
+  {
+   "cycle": 146,
+   "netWorth": 1282953,
+   "level": 14,
+   "cash": 1866,
+   "profit": 6975
+  },
+  {
+   "cycle": 151,
+   "netWorth": 1336950,
+   "level": 14,
+   "cash": 15550,
+   "profit": 821
+  },
+  {
+   "cycle": 156,
+   "netWorth": 1552797,
+   "level": 14,
+   "cash": 29890,
+   "profit": 1197
+  },
+  {
+   "cycle": 161,
+   "netWorth": 1392976,
+   "level": 14,
+   "cash": 62388,
+   "profit": -128962
+  },
+  {
+   "cycle": 166,
+   "netWorth": 1575828,
+   "level": 14,
+   "cash": 182717,
+   "profit": 38800
+  },
+  {
+   "cycle": 171,
+   "netWorth": 1655808,
+   "level": 14,
+   "cash": 131983,
+   "profit": -209
+  },
+  {
+   "cycle": 176,
+   "netWorth": 1689352,
+   "level": 14,
+   "cash": 106098,
+   "profit": 2516
+  },
+  {
+   "cycle": 181,
+   "netWorth": 1514412,
+   "level": 14,
+   "cash": 411,
+   "profit": -2568
+  },
+  {
+   "cycle": 186,
+   "netWorth": 1639359,
+   "level": 14,
+   "cash": 9632,
+   "profit": 120343
+  },
+  {
+   "cycle": 191,
+   "netWorth": 1596504,
+   "level": 14,
+   "cash": 105,
+   "profit": -2980
+  },
+  {
+   "cycle": 196,
+   "netWorth": 1576804,
+   "level": 14,
+   "cash": 22584,
+   "profit": 8945
+  },
+  {
+   "cycle": 201,
+   "netWorth": 1573714,
+   "level": 14,
+   "cash": 215,
+   "profit": -4373
+  },
+  {
+   "cycle": 206,
+   "netWorth": 1855104,
+   "level": 15,
+   "cash": 92721,
+   "profit": 20734
+  },
+  {
+   "cycle": 211,
+   "netWorth": 1922120,
+   "level": 15,
+   "cash": 4064,
+   "profit": 4419
+  },
+  {
+   "cycle": 216,
+   "netWorth": 2072721,
+   "level": 15,
+   "cash": 211410,
+   "profit": 62438
+  },
+  {
+   "cycle": 221,
+   "netWorth": 2135587,
+   "level": 15,
+   "cash": 54555,
+   "profit": -660
+  },
+  {
+   "cycle": 226,
+   "netWorth": 2157673,
+   "level": 15,
+   "cash": 80910,
+   "profit": 30842
+  },
+  {
+   "cycle": 231,
+   "netWorth": 2374085,
+   "level": 15,
+   "cash": 130612,
+   "profit": 18583
+  },
+  {
+   "cycle": 236,
+   "netWorth": 2610395,
+   "level": 15,
+   "cash": 64571,
+   "profit": 12426
+  },
+  {
+   "cycle": 241,
+   "netWorth": 2623828,
+   "level": 15,
+   "cash": 441,
+   "profit": 16954
+  },
+  {
+   "cycle": 246,
+   "netWorth": 2901431,
+   "level": 15,
+   "cash": 1484,
+   "profit": 3238
+  },
+  {
+   "cycle": 251,
+   "netWorth": 3151602,
+   "level": 15,
+   "cash": 418575,
+   "profit": 129551
+  },
+  {
+   "cycle": 256,
+   "netWorth": 3130067,
+   "level": 15,
+   "cash": 88726,
+   "profit": -20967
+  },
+  {
+   "cycle": 261,
+   "netWorth": 3524503,
+   "level": 15,
+   "cash": 129528,
+   "profit": 516
+  },
+  {
+   "cycle": 266,
+   "netWorth": 3856680,
+   "level": 15,
+   "cash": 9095,
+   "profit": 28856
+  },
+  {
+   "cycle": 271,
+   "netWorth": 3821226,
+   "level": 15,
+   "cash": 611157,
+   "profit": -120135
+  },
+  {
+   "cycle": 276,
+   "netWorth": 3949869,
+   "level": 15,
+   "cash": 41372,
+   "profit": 1263
+  },
+  {
+   "cycle": 281,
+   "netWorth": 3912823,
+   "level": 15,
+   "cash": 60198,
+   "profit": 3302
+  },
+  {
+   "cycle": 286,
+   "netWorth": 4425386,
+   "level": 15,
+   "cash": 870352,
+   "profit": 31223
+  },
+  {
+   "cycle": 291,
+   "netWorth": 4414980,
+   "level": 15,
+   "cash": 937176,
+   "profit": 2585
+  },
+  {
+   "cycle": 296,
+   "netWorth": 4418500,
+   "level": 15,
+   "cash": 944604,
+   "profit": 26378
+  },
+  {
+   "cycle": 301,
+   "netWorth": 4518349,
+   "level": 15,
+   "cash": 1353326,
+   "profit": 3206
+  },
+  {
+   "cycle": 306,
+   "netWorth": 4422673,
+   "level": 15,
+   "cash": 1353515,
+   "profit": -3708
+  },
+  {
+   "cycle": 311,
+   "netWorth": 4680251,
+   "level": 15,
+   "cash": 1335642,
+   "profit": 4516
+  },
+  {
+   "cycle": 316,
+   "netWorth": 5161719,
+   "level": 15,
+   "cash": 905942,
+   "profit": 79625
+  },
+  {
+   "cycle": 321,
+   "netWorth": 4511109,
+   "level": 15,
+   "cash": 1007829,
+   "profit": 11560
+  },
+  {
+   "cycle": 326,
+   "netWorth": 5173603,
+   "level": 15,
+   "cash": 1307205,
+   "profit": 12914
+  },
+  {
+   "cycle": 331,
+   "netWorth": 5151237,
+   "level": 15,
+   "cash": 1244577,
+   "profit": 1733
+  },
+  {
+   "cycle": 336,
+   "netWorth": 5399141,
+   "level": 15,
+   "cash": 238741,
+   "profit": 1545
+  },
+  {
+   "cycle": 341,
+   "netWorth": 5240963,
+   "level": 15,
+   "cash": 7580,
+   "profit": 40694
+  },
+  {
+   "cycle": 346,
+   "netWorth": 4969592,
+   "level": 15,
+   "cash": 122108,
+   "profit": -208875
+  },
+  {
+   "cycle": 351,
+   "netWorth": 5095531,
+   "level": 15,
+   "cash": 135,
+   "profit": -8259
+  },
+  {
+   "cycle": 356,
+   "netWorth": 4793691,
+   "level": 15,
+   "cash": 2,
+   "profit": -7174
+  },
+  {
+   "cycle": 361,
+   "netWorth": 4844418,
+   "level": 15,
+   "cash": 254,
+   "profit": -4438
+  },
+  {
+   "cycle": 366,
+   "netWorth": 4798717,
+   "level": 15,
+   "cash": 2615,
+   "profit": -19760
+  },
+  {
+   "cycle": 371,
+   "netWorth": 4695694,
+   "level": 15,
+   "cash": 846,
+   "profit": -17157
+  },
+  {
+   "cycle": 376,
+   "netWorth": 5290675,
+   "level": 15,
+   "cash": 0,
+   "profit": -12486
+  },
+  {
+   "cycle": 381,
+   "netWorth": 5131506,
+   "level": 15,
+   "cash": 39917,
+   "profit": 109544
+  },
+  {
+   "cycle": 386,
+   "netWorth": 5000909,
+   "level": 15,
+   "cash": 2806,
+   "profit": -23256
+  },
+  {
+   "cycle": 391,
+   "netWorth": 5150335,
+   "level": 15,
+   "cash": 66,
+   "profit": -13616
+  },
+  {
+   "cycle": 396,
+   "netWorth": 5177904,
+   "level": 15,
+   "cash": 1717,
+   "profit": 18984
+  },
+  {
+   "cycle": 401,
+   "netWorth": 5083917,
+   "level": 15,
+   "cash": 257,
+   "profit": -19013
+  },
+  {
+   "cycle": 406,
+   "netWorth": 5136114,
+   "level": 15,
+   "cash": 231,
+   "profit": -82657
+  },
+  {
+   "cycle": 411,
+   "netWorth": 4790705,
+   "level": 15,
+   "cash": 78,
+   "profit": -6292
+  },
+  {
+   "cycle": 416,
+   "netWorth": 4985147,
+   "level": 15,
+   "cash": 1003,
+   "profit": -11329
+  },
+  {
+   "cycle": 421,
+   "netWorth": 5274622,
+   "level": 15,
+   "cash": 4710,
+   "profit": -8100
+  },
+  {
+   "cycle": 426,
+   "netWorth": 5376425,
+   "level": 15,
+   "cash": 20574,
+   "profit": -3145
+  },
+  {
+   "cycle": 431,
+   "netWorth": 5352041,
+   "level": 15,
+   "cash": 57,
+   "profit": -19046
+  },
+  {
+   "cycle": 436,
+   "netWorth": 5396438,
+   "level": 15,
+   "cash": 66,
+   "profit": -18736
+  },
+  {
+   "cycle": 441,
+   "netWorth": 5390893,
+   "level": 15,
+   "cash": 21661,
+   "profit": 146620
+  },
+  {
+   "cycle": 446,
+   "netWorth": 5224820,
+   "level": 15,
+   "cash": 0,
+   "profit": -25631
+  },
+  {
+   "cycle": 451,
+   "netWorth": 5399990,
+   "level": 15,
+   "cash": 53,
+   "profit": -19078
+  },
+  {
+   "cycle": 456,
+   "netWorth": 5396164,
+   "level": 15,
+   "cash": 342449,
+   "profit": 63537
+  },
+  {
+   "cycle": 461,
+   "netWorth": 5521315,
+   "level": 15,
+   "cash": 164792,
+   "profit": 114894
+  },
+  {
+   "cycle": 466,
+   "netWorth": 6001932,
+   "level": 15,
+   "cash": 64,
+   "profit": 332
+  },
+  {
+   "cycle": 471,
+   "netWorth": 6024486,
+   "level": 15,
+   "cash": 1553,
+   "profit": -21628
+  },
+  {
+   "cycle": 476,
+   "netWorth": 6062257,
+   "level": 15,
+   "cash": 470,
+   "profit": -17794
+  },
+  {
+   "cycle": 481,
+   "netWorth": 5776583,
+   "level": 15,
+   "cash": 475,
+   "profit": -20334
+  },
+  {
+   "cycle": 486,
+   "netWorth": 5674048,
+   "level": 15,
+   "cash": 0,
+   "profit": -21734
+  },
+  {
+   "cycle": 491,
+   "netWorth": 5312622,
+   "level": 15,
+   "cash": 15567,
+   "profit": 18792
+  },
+  {
+   "cycle": 496,
+   "netWorth": 5442986,
+   "level": 15,
+   "cash": 650117,
+   "profit": 126551
+  },
+  {
+   "cycle": 501,
+   "netWorth": 5508574,
+   "level": 15,
+   "cash": 99,
+   "profit": -18553
+  },
+  {
+   "cycle": 506,
+   "netWorth": 5280666,
+   "level": 15,
+   "cash": 167,
+   "profit": -17687
+  },
+  {
+   "cycle": 511,
+   "netWorth": 5561953,
+   "level": 15,
+   "cash": 773871,
+   "profit": 309384
+  },
+  {
+   "cycle": 516,
+   "netWorth": 5946546,
+   "level": 15,
+   "cash": 41,
+   "profit": -16802
+  },
+  {
+   "cycle": 521,
+   "netWorth": 6054565,
+   "level": 15,
+   "cash": 1554,
+   "profit": -23207
+  },
+  {
+   "cycle": 526,
+   "netWorth": 5917758,
+   "level": 15,
+   "cash": 2234,
+   "profit": -36355
+  },
+  {
+   "cycle": 531,
+   "netWorth": 5861336,
+   "level": 15,
+   "cash": 337,
+   "profit": -21116
+  },
+  {
+   "cycle": 536,
+   "netWorth": 5956940,
+   "level": 15,
+   "cash": 13,
+   "profit": -21136
+  },
+  {
+   "cycle": 541,
+   "netWorth": 5844046,
+   "level": 15,
+   "cash": 76,
+   "profit": -23795
+  },
+  {
+   "cycle": 546,
+   "netWorth": 5917880,
+   "level": 15,
+   "cash": 59,
+   "profit": -20072
+  },
+  {
+   "cycle": 551,
+   "netWorth": 5717854,
+   "level": 15,
+   "cash": 1809,
+   "profit": -34764
+  },
+  {
+   "cycle": 556,
+   "netWorth": 5969159,
+   "level": 15,
+   "cash": 110,
+   "profit": -17774
+  },
+  {
+   "cycle": 561,
+   "netWorth": 6075775,
+   "level": 15,
+   "cash": 380,
+   "profit": -28141
+  },
+  {
+   "cycle": 566,
+   "netWorth": 5904656,
+   "level": 15,
+   "cash": 1004,
+   "profit": -42752
+  },
+  {
+   "cycle": 571,
+   "netWorth": 6237864,
+   "level": 15,
+   "cash": 405007,
+   "profit": 117654
+  },
+  {
+   "cycle": 576,
+   "netWorth": 6080342,
+   "level": 15,
+   "cash": 44,
+   "profit": -333381
+  },
+  {
+   "cycle": 581,
+   "netWorth": 5642776,
+   "level": 15,
+   "cash": 47,
+   "profit": -210506
+  },
+  {
+   "cycle": 586,
+   "netWorth": 5744925,
+   "level": 15,
+   "cash": 275,
+   "profit": -12225
+  },
+  {
+   "cycle": 591,
+   "netWorth": 5758928,
+   "level": 15,
+   "cash": 1933,
+   "profit": -5192
+  },
+  {
+   "cycle": 596,
+   "netWorth": 5658733,
+   "level": 15,
+   "cash": 1146,
+   "profit": -2866
+  },
+  {
+   "cycle": 601,
+   "netWorth": 5701813,
+   "level": 15,
+   "cash": 924,
+   "profit": -19458
+  },
+  {
+   "cycle": 606,
+   "netWorth": 5755624,
+   "level": 15,
+   "cash": 229,
+   "profit": -13207
+  },
+  {
+   "cycle": 611,
+   "netWorth": 5698275,
+   "level": 15,
+   "cash": 146,
+   "profit": -32721
+  },
+  {
+   "cycle": 616,
+   "netWorth": 5079680,
+   "level": 15,
+   "cash": 452,
+   "profit": -18643
+  },
+  {
+   "cycle": 621,
+   "netWorth": 5095146,
+   "level": 15,
+   "cash": 0,
+   "profit": -25790
+  },
+  {
+   "cycle": 626,
+   "netWorth": 4733996,
+   "level": 15,
+   "cash": 28137,
+   "profit": 26191
+  },
+  {
+   "cycle": 631,
+   "netWorth": 4788306,
+   "level": 15,
+   "cash": 126,
+   "profit": -25781
+  },
+  {
+   "cycle": 636,
+   "netWorth": 4654276,
+   "level": 15,
+   "cash": 112,
+   "profit": -13641
+  },
+  {
+   "cycle": 641,
+   "netWorth": 4622789,
+   "level": 15,
+   "cash": 399,
+   "profit": -19638
+  },
+  {
+   "cycle": 646,
+   "netWorth": 4824043,
+   "level": 15,
+   "cash": 37,
+   "profit": -18430
+  },
+  {
+   "cycle": 651,
+   "netWorth": 4774169,
+   "level": 15,
+   "cash": 2644,
+   "profit": -29080
+  },
+  {
+   "cycle": 656,
+   "netWorth": 4874251,
+   "level": 15,
+   "cash": 0,
+   "profit": -25901
+  },
+  {
+   "cycle": 661,
+   "netWorth": 4798406,
+   "level": 15,
+   "cash": 167,
+   "profit": -18003
+  },
+  {
+   "cycle": 666,
+   "netWorth": 4963166,
+   "level": 15,
+   "cash": 83,
+   "profit": -17050
+  },
+  {
+   "cycle": 671,
+   "netWorth": 4798191,
+   "level": 15,
+   "cash": 134,
+   "profit": -12581
+  },
+  {
+   "cycle": 676,
+   "netWorth": 4724088,
+   "level": 15,
+   "cash": 156,
+   "profit": -3430
+  },
+  {
+   "cycle": 681,
+   "netWorth": 4615113,
+   "level": 15,
+   "cash": 559,
+   "profit": -26778
+  },
+  {
+   "cycle": 686,
+   "netWorth": 4277898,
+   "level": 15,
+   "cash": 199359,
+   "profit": -254711
+  },
+  {
+   "cycle": 691,
+   "netWorth": 4508499,
+   "level": 15,
+   "cash": 96,
+   "profit": -10807
+  },
+  {
+   "cycle": 696,
+   "netWorth": 4424695,
+   "level": 15,
+   "cash": 17768,
+   "profit": -6701
+  },
+  {
+   "cycle": 701,
+   "netWorth": 4314269,
+   "level": 15,
+   "cash": 204,
+   "profit": -25052
+  },
+  {
+   "cycle": 706,
+   "netWorth": 4614043,
+   "level": 15,
+   "cash": 0,
+   "profit": -17110
+  },
+  {
+   "cycle": 711,
+   "netWorth": 4879985,
+   "level": 15,
+   "cash": 14,
+   "profit": 63770
+  },
+  {
+   "cycle": 716,
+   "netWorth": 4737789,
+   "level": 15,
+   "cash": 2232,
+   "profit": -27252
+  },
+  {
+   "cycle": 721,
+   "netWorth": 5423357,
+   "level": 15,
+   "cash": 183,
+   "profit": -1128
+  },
+  {
+   "cycle": 726,
+   "netWorth": 5279160,
+   "level": 15,
+   "cash": 40,
+   "profit": -18752
+  },
+  {
+   "cycle": 731,
+   "netWorth": 5753993,
+   "level": 15,
+   "cash": 1293630,
+   "profit": 467455
+  },
+  {
+   "cycle": 736,
+   "netWorth": 5726428,
+   "level": 15,
+   "cash": 1,
+   "profit": -18702
+  },
+  {
+   "cycle": 741,
+   "netWorth": 5658908,
+   "level": 15,
+   "cash": 70,
+   "profit": 22195
+  },
+  {
+   "cycle": 746,
+   "netWorth": 5728154,
+   "level": 15,
+   "cash": 95,
+   "profit": -17022
+  },
+  {
+   "cycle": 751,
+   "netWorth": 5905118,
+   "level": 15,
+   "cash": 0,
+   "profit": -21960
+  },
+  {
+   "cycle": 756,
+   "netWorth": 5631972,
+   "level": 15,
+   "cash": 191,
+   "profit": -38637
+  },
+  {
+   "cycle": 761,
+   "netWorth": 5954496,
+   "level": 15,
+   "cash": 84,
+   "profit": -17273
+  },
+  {
+   "cycle": 766,
+   "netWorth": 5871792,
+   "level": 15,
+   "cash": 38,
+   "profit": -15174
+  },
+  {
+   "cycle": 771,
+   "netWorth": 5904287,
+   "level": 15,
+   "cash": 65,
+   "profit": -17854
+  },
+  {
+   "cycle": 776,
+   "netWorth": 5782371,
+   "level": 15,
+   "cash": 42,
+   "profit": -16182
+  },
+  {
+   "cycle": 781,
+   "netWorth": 5847881,
+   "level": 15,
+   "cash": 777,
+   "profit": -9672
+  },
+  {
+   "cycle": 786,
+   "netWorth": 5981349,
+   "level": 15,
+   "cash": 157,
+   "profit": 47178
+  },
+  {
+   "cycle": 791,
+   "netWorth": 6330536,
+   "level": 15,
+   "cash": 26969,
+   "profit": 66687
+  },
+  {
+   "cycle": 796,
+   "netWorth": 6390713,
+   "level": 15,
+   "cash": 33,
+   "profit": -24294
+  },
+  {
+   "cycle": 801,
+   "netWorth": 6542203,
+   "level": 15,
+   "cash": 32192,
+   "profit": 42932
+  },
+  {
+   "cycle": 806,
+   "netWorth": 6637001,
+   "level": 15,
+   "cash": 899,
+   "profit": -18532
+  },
+  {
+   "cycle": 811,
+   "netWorth": 6875578,
+   "level": 15,
+   "cash": 83,
+   "profit": -20212
+  },
+  {
+   "cycle": 816,
+   "netWorth": 6969871,
+   "level": 15,
+   "cash": 414,
+   "profit": -16962
+  },
+  {
+   "cycle": 821,
+   "netWorth": 7090148,
+   "level": 15,
+   "cash": 796,
+   "profit": 33735
+  },
+  {
+   "cycle": 826,
+   "netWorth": 7237527,
+   "level": 15,
+   "cash": 84,
+   "profit": -19823
+  },
+  {
+   "cycle": 831,
+   "netWorth": 7374828,
+   "level": 15,
+   "cash": 114892,
+   "profit": 187049
+  },
+  {
+   "cycle": 836,
+   "netWorth": 7216844,
+   "level": 15,
+   "cash": 501,
+   "profit": -21749
+  },
+  {
+   "cycle": 841,
+   "netWorth": 7910430,
+   "level": 15,
+   "cash": 389636,
+   "profit": 219696
+  },
+  {
+   "cycle": 846,
+   "netWorth": 8257019,
+   "level": 15,
+   "cash": 280,
+   "profit": 251338
+  },
+  {
+   "cycle": 851,
+   "netWorth": 8371623,
+   "level": 15,
+   "cash": 698517,
+   "profit": 233566
+  },
+  {
+   "cycle": 856,
+   "netWorth": 8305879,
+   "level": 15,
+   "cash": 40,
+   "profit": -18729
+  },
+  {
+   "cycle": 861,
+   "netWorth": 8056842,
+   "level": 15,
+   "cash": 138707,
+   "profit": 48680
+  },
+  {
+   "cycle": 866,
+   "netWorth": 8026695,
+   "level": 15,
+   "cash": 106,
+   "profit": -23733
+  },
+  {
+   "cycle": 871,
+   "netWorth": 7790917,
+   "level": 15,
+   "cash": 54288,
+   "profit": 158217
+  },
+  {
+   "cycle": 876,
+   "netWorth": 7786679,
+   "level": 15,
+   "cash": 2275,
+   "profit": -19265
+  },
+  {
+   "cycle": 881,
+   "netWorth": 8090167,
+   "level": 15,
+   "cash": 185,
+   "profit": 35988
+  },
+  {
+   "cycle": 886,
+   "netWorth": 8408229,
+   "level": 15,
+   "cash": 2771,
+   "profit": 26131
+  },
+  {
+   "cycle": 891,
+   "netWorth": 8372439,
+   "level": 15,
+   "cash": 488255,
+   "profit": 109111
+  },
+  {
+   "cycle": 896,
+   "netWorth": 8186542,
+   "level": 15,
+   "cash": 64,
+   "profit": -29237
+  },
+  {
+   "cycle": 901,
+   "netWorth": 8362021,
+   "level": 15,
+   "cash": 706,
+   "profit": -22132
+  },
+  {
+   "cycle": 906,
+   "netWorth": 8267908,
+   "level": 15,
+   "cash": 189259,
+   "profit": -231339
+  },
+  {
+   "cycle": 911,
+   "netWorth": 8707461,
+   "level": 15,
+   "cash": 1214413,
+   "profit": 352205
+  },
+  {
+   "cycle": 916,
+   "netWorth": 9095480,
+   "level": 15,
+   "cash": 0,
+   "profit": -23940
+  },
+  {
+   "cycle": 921,
+   "netWorth": 9205886,
+   "level": 15,
+   "cash": 0,
+   "profit": -32312
+  },
+  {
+   "cycle": 926,
+   "netWorth": 8546972,
+   "level": 15,
+   "cash": 365818,
+   "profit": 160608
+  },
+  {
+   "cycle": 931,
+   "netWorth": 8356386,
+   "level": 15,
+   "cash": 17005,
+   "profit": -41900
+  },
+  {
+   "cycle": 936,
+   "netWorth": 8357731,
+   "level": 15,
+   "cash": 36,
+   "profit": -61296
+  },
+  {
+   "cycle": 941,
+   "netWorth": 8576159,
+   "level": 15,
+   "cash": 706684,
+   "profit": 243540
+  },
+  {
+   "cycle": 946,
+   "netWorth": 9108734,
+   "level": 15,
+   "cash": 142392,
+   "profit": 235136
+  },
+  {
+   "cycle": 951,
+   "netWorth": 9214075,
+   "level": 15,
+   "cash": 9026,
+   "profit": 11928
+  },
+  {
+   "cycle": 956,
+   "netWorth": 8769838,
+   "level": 15,
+   "cash": 35388,
+   "profit": -139295
+  },
+  {
+   "cycle": 961,
+   "netWorth": 8804151,
+   "level": 15,
+   "cash": 95,
+   "profit": -87384
+  },
+  {
+   "cycle": 966,
+   "netWorth": 8172633,
+   "level": 15,
+   "cash": 5,
+   "profit": -26785
+  },
+  {
+   "cycle": 971,
+   "netWorth": 7460857,
+   "level": 15,
+   "cash": 209,
+   "profit": -16293
+  },
+  {
+   "cycle": 976,
+   "netWorth": 7585649,
+   "level": 15,
+   "cash": 3300,
+   "profit": -42885
+  },
+  {
+   "cycle": 981,
+   "netWorth": 8051824,
+   "level": 15,
+   "cash": 95,
+   "profit": -21377
+  },
+  {
+   "cycle": 986,
+   "netWorth": 7670726,
+   "level": 15,
+   "cash": 1204,
+   "profit": -37606
+  },
+  {
+   "cycle": 991,
+   "netWorth": 7539706,
+   "level": 15,
+   "cash": 31,
+   "profit": -22056
+  },
+  {
+   "cycle": 996,
+   "netWorth": 7592778,
+   "level": 15,
+   "cash": 74,
+   "profit": -22170
+  },
+  {
+   "cycle": 1001,
+   "netWorth": 7828677,
+   "level": 15,
+   "cash": 314563,
+   "profit": 113313
+  },
+  {
+   "cycle": 1006,
+   "netWorth": 7723430,
+   "level": 15,
+   "cash": 0,
+   "profit": -27494
+  },
+  {
+   "cycle": 1011,
+   "netWorth": 7794901,
+   "level": 15,
+   "cash": 949,
+   "profit": -36796
+  },
+  {
+   "cycle": 1016,
+   "netWorth": 7772267,
+   "level": 15,
+   "cash": 38718,
+   "profit": 128548
+  },
+  {
+   "cycle": 1021,
+   "netWorth": 7887241,
+   "level": 15,
+   "cash": 0,
+   "profit": -28363
+  },
+  {
+   "cycle": 1026,
+   "netWorth": 7622200,
+   "level": 15,
+   "cash": 92,
+   "profit": -31546
+  },
+  {
+   "cycle": 1031,
+   "netWorth": 7657779,
+   "level": 15,
+   "cash": 129,
+   "profit": -24790
+  },
+  {
+   "cycle": 1036,
+   "netWorth": 7863321,
+   "level": 15,
+   "cash": 75,
+   "profit": -26495
+  },
+  {
+   "cycle": 1041,
+   "netWorth": 8196683,
+   "level": 15,
+   "cash": 0,
+   "profit": -22166
+  },
+  {
+   "cycle": 1046,
+   "netWorth": 8006229,
+   "level": 15,
+   "cash": 109,
+   "profit": -21270
+  },
+  {
+   "cycle": 1051,
+   "netWorth": 7964811,
+   "level": 15,
+   "cash": 19802,
+   "profit": -31490
+  },
+  {
+   "cycle": 1056,
+   "netWorth": 8179359,
+   "level": 15,
+   "cash": 193,
+   "profit": -12498
+  },
+  {
+   "cycle": 1061,
+   "netWorth": 8533281,
+   "level": 15,
+   "cash": 61,
+   "profit": -27019
+  },
+  {
+   "cycle": 1066,
+   "netWorth": 8556635,
+   "level": 15,
+   "cash": 791,
+   "profit": -35954
+  },
+  {
+   "cycle": 1071,
+   "netWorth": 8838204,
+   "level": 15,
+   "cash": 110,
+   "profit": 82811
+  },
+  {
+   "cycle": 1076,
+   "netWorth": 8810784,
+   "level": 15,
+   "cash": 31,
+   "profit": -78670
+  },
+  {
+   "cycle": 1081,
+   "netWorth": 8995727,
+   "level": 15,
+   "cash": 904774,
+   "profit": 259580
+  },
+  {
+   "cycle": 1086,
+   "netWorth": 9194868,
+   "level": 15,
+   "cash": 621,
+   "profit": 137416
+  },
+  {
+   "cycle": 1091,
+   "netWorth": 10219964,
+   "level": 15,
+   "cash": 183,
+   "profit": -11129
+  },
+  {
+   "cycle": 1096,
+   "netWorth": 9339730,
+   "level": 15,
+   "cash": 252,
+   "profit": -78814
+  },
+  {
+   "cycle": 1101,
+   "netWorth": 9525723,
+   "level": 15,
+   "cash": 0,
+   "profit": -36066
+  },
+  {
+   "cycle": 1106,
+   "netWorth": 9869214,
+   "level": 15,
+   "cash": 11,
+   "profit": 10358
+  },
+  {
+   "cycle": 1111,
+   "netWorth": 9768756,
+   "level": 15,
+   "cash": 204885,
+   "profit": 156209
+  },
+  {
+   "cycle": 1116,
+   "netWorth": 9954264,
+   "level": 15,
+   "cash": 457,
+   "profit": 24989
+  },
+  {
+   "cycle": 1121,
+   "netWorth": 9577169,
+   "level": 15,
+   "cash": 694,
+   "profit": -202587
+  },
+  {
+   "cycle": 1126,
+   "netWorth": 9791587,
+   "level": 15,
+   "cash": 186,
+   "profit": -24425
+  },
+  {
+   "cycle": 1131,
+   "netWorth": 9921394,
+   "level": 15,
+   "cash": 0,
+   "profit": -36707
+  },
+  {
+   "cycle": 1136,
+   "netWorth": 9468004,
+   "level": 15,
+   "cash": 41893,
+   "profit": -205393
+  },
+  {
+   "cycle": 1141,
+   "netWorth": 9573463,
+   "level": 15,
+   "cash": 246229,
+   "profit": 58846
+  },
+  {
+   "cycle": 1146,
+   "netWorth": 9267792,
+   "level": 15,
+   "cash": 28935,
+   "profit": 19845
+  },
+  {
+   "cycle": 1151,
+   "netWorth": 7940112,
+   "level": 15,
+   "cash": 0,
+   "profit": -35910
+  },
+  {
+   "cycle": 1156,
+   "netWorth": 7825465,
+   "level": 15,
+   "cash": 322553,
+   "profit": 100029
+  },
+  {
+   "cycle": 1161,
+   "netWorth": 7924617,
+   "level": 15,
+   "cash": 885,
+   "profit": 38621
+  },
+  {
+   "cycle": 1166,
+   "netWorth": 8012879,
+   "level": 15,
+   "cash": 102607,
+   "profit": -30848
+  },
+  {
+   "cycle": 1171,
+   "netWorth": 8066578,
+   "level": 15,
+   "cash": 0,
+   "profit": -29978
+  },
+  {
+   "cycle": 1176,
+   "netWorth": 8197203,
+   "level": 15,
+   "cash": 0,
+   "profit": -29509
+  },
+  {
+   "cycle": 1181,
+   "netWorth": 8855510,
+   "level": 15,
+   "cash": 13,
+   "profit": -24827
+  },
+  {
+   "cycle": 1186,
+   "netWorth": 8448666,
+   "level": 15,
+   "cash": 874,
+   "profit": -41026
+  },
+  {
+   "cycle": 1191,
+   "netWorth": 8510568,
+   "level": 15,
+   "cash": 153,
+   "profit": 23855
+  },
+  {
+   "cycle": 1196,
+   "netWorth": 8775964,
+   "level": 15,
+   "cash": 1139,
+   "profit": -34108
+  },
+  {
+   "cycle": 1201,
+   "netWorth": 8790417,
+   "level": 15,
+   "cash": 832,
+   "profit": -6627
+  },
+  {
+   "cycle": 1206,
+   "netWorth": 8813451,
+   "level": 15,
+   "cash": 259,
+   "profit": -6662
+  },
+  {
+   "cycle": 1211,
+   "netWorth": 8694687,
+   "level": 15,
+   "cash": 51,
+   "profit": -27591
+  },
+  {
+   "cycle": 1216,
+   "netWorth": 8862887,
+   "level": 15,
+   "cash": 0,
+   "profit": -33900
+  },
+  {
+   "cycle": 1221,
+   "netWorth": 8949430,
+   "level": 15,
+   "cash": 913305,
+   "profit": 185633
+  },
+  {
+   "cycle": 1226,
+   "netWorth": 8974881,
+   "level": 15,
+   "cash": 1371,
+   "profit": -40023
+  },
+  {
+   "cycle": 1231,
+   "netWorth": 8784427,
+   "level": 15,
+   "cash": 846,
+   "profit": -11377
+  },
+  {
+   "cycle": 1236,
+   "netWorth": 9047785,
+   "level": 15,
+   "cash": 27,
+   "profit": -32996
+  },
+  {
+   "cycle": 1241,
+   "netWorth": 8992255,
+   "level": 15,
+   "cash": 287,
+   "profit": -32713
+  },
+  {
+   "cycle": 1246,
+   "netWorth": 9152623,
+   "level": 15,
+   "cash": 369892,
+   "profit": 49560
+  },
+  {
+   "cycle": 1251,
+   "netWorth": 9371318,
+   "level": 15,
+   "cash": 228,
+   "profit": -840
+  },
+  {
+   "cycle": 1256,
+   "netWorth": 9560408,
+   "level": 15,
+   "cash": 49,
+   "profit": -33468
+  },
+  {
+   "cycle": 1261,
+   "netWorth": 10225187,
+   "level": 15,
+   "cash": 0,
+   "profit": -31957
+  },
+  {
+   "cycle": 1266,
+   "netWorth": 10053518,
+   "level": 15,
+   "cash": 0,
+   "profit": -31184
+  },
+  {
+   "cycle": 1271,
+   "netWorth": 9320308,
+   "level": 15,
+   "cash": 118,
+   "profit": -32879
+  },
+  {
+   "cycle": 1276,
+   "netWorth": 8753594,
+   "level": 15,
+   "cash": 490723,
+   "profit": -241731
+  },
+  {
+   "cycle": 1281,
+   "netWorth": 8723361,
+   "level": 15,
+   "cash": 29070,
+   "profit": -37778
+  },
+  {
+   "cycle": 1286,
+   "netWorth": 8995700,
+   "level": 15,
+   "cash": 424,
+   "profit": -14779
+  },
+  {
+   "cycle": 1291,
+   "netWorth": 9050886,
+   "level": 15,
+   "cash": 410,
+   "profit": -60522
+  },
+  {
+   "cycle": 1296,
+   "netWorth": 9566254,
+   "level": 15,
+   "cash": 238,
+   "profit": 93148
+  },
+  {
+   "cycle": 1301,
+   "netWorth": 9731183,
+   "level": 15,
+   "cash": 11,
+   "profit": -28907
+  },
+  {
+   "cycle": 1306,
+   "netWorth": 9885338,
+   "level": 15,
+   "cash": 343481,
+   "profit": 124933
+  },
+  {
+   "cycle": 1311,
+   "netWorth": 9600921,
+   "level": 15,
+   "cash": 38,
+   "profit": -29997
+  },
+  {
+   "cycle": 1316,
+   "netWorth": 9680063,
+   "level": 15,
+   "cash": 0,
+   "profit": -32975
+  },
+  {
+   "cycle": 1321,
+   "netWorth": 9222915,
+   "level": 15,
+   "cash": 9172,
+   "profit": -48722
+  },
+  {
+   "cycle": 1326,
+   "netWorth": 9424933,
+   "level": 15,
+   "cash": 15,
+   "profit": -24693
+  },
+  {
+   "cycle": 1331,
+   "netWorth": 9456961,
+   "level": 15,
+   "cash": 177758,
+   "profit": -24726
+  },
+  {
+   "cycle": 1336,
+   "netWorth": 9576725,
+   "level": 15,
+   "cash": 671,
+   "profit": -31010
+  },
+  {
+   "cycle": 1341,
+   "netWorth": 10099753,
+   "level": 15,
+   "cash": 358,
+   "profit": -31628
+  },
+  {
+   "cycle": 1346,
+   "netWorth": 9834253,
+   "level": 15,
+   "cash": 0,
+   "profit": -35692
+  },
+  {
+   "cycle": 1351,
+   "netWorth": 9952980,
+   "level": 15,
+   "cash": 3092,
+   "profit": -43994
+  },
+  {
+   "cycle": 1356,
+   "netWorth": 10179765,
+   "level": 15,
+   "cash": 385331,
+   "profit": -5506
+  },
+  {
+   "cycle": 1361,
+   "netWorth": 10073688,
+   "level": 15,
+   "cash": 108,
+   "profit": -22481
+  },
+  {
+   "cycle": 1366,
+   "netWorth": 10701578,
+   "level": 15,
+   "cash": 621,
+   "profit": 150201
+  },
+  {
+   "cycle": 1371,
+   "netWorth": 10884093,
+   "level": 15,
+   "cash": 566968,
+   "profit": 64071
+  },
+  {
+   "cycle": 1376,
+   "netWorth": 10793952,
+   "level": 15,
+   "cash": 614544,
+   "profit": 17413
+  },
+  {
+   "cycle": 1381,
+   "netWorth": 11082390,
+   "level": 15,
+   "cash": 185,
+   "profit": -35172
+  },
+  {
+   "cycle": 1386,
+   "netWorth": 11021316,
+   "level": 15,
+   "cash": 49349,
+   "profit": -47487
+  },
+  {
+   "cycle": 1391,
+   "netWorth": 10988446,
+   "level": 15,
+   "cash": 2297,
+   "profit": -41174
+  },
+  {
+   "cycle": 1396,
+   "netWorth": 11135946,
+   "level": 15,
+   "cash": 178862,
+   "profit": -13191
+  },
+  {
+   "cycle": 1401,
+   "netWorth": 10879208,
+   "level": 15,
+   "cash": 30970,
+   "profit": -61032
+  },
+  {
+   "cycle": 1406,
+   "netWorth": 10972774,
+   "level": 15,
+   "cash": 163,
+   "profit": -27186
+  },
+  {
+   "cycle": 1411,
+   "netWorth": 11086400,
+   "level": 15,
+   "cash": 3808,
+   "profit": -44105
+  },
+  {
+   "cycle": 1416,
+   "netWorth": 11100335,
+   "level": 15,
+   "cash": 1220,
+   "profit": -10018
+  },
+  {
+   "cycle": 1421,
+   "netWorth": 10860695,
+   "level": 15,
+   "cash": 328,
+   "profit": -7873
+  },
+  {
+   "cycle": 1426,
+   "netWorth": 11089630,
+   "level": 15,
+   "cash": 0,
+   "profit": -38962
+  },
+  {
+   "cycle": 1431,
+   "netWorth": 11202392,
+   "level": 15,
+   "cash": 29,
+   "profit": -42654
+  },
+  {
+   "cycle": 1436,
+   "netWorth": 11162683,
+   "level": 15,
+   "cash": 54,
+   "profit": -24734
+  },
+  {
+   "cycle": 1441,
+   "netWorth": 11229979,
+   "level": 15,
+   "cash": 2871,
+   "profit": -45899
+  },
+  {
+   "cycle": 1446,
+   "netWorth": 11046736,
+   "level": 15,
+   "cash": 98,
+   "profit": 43464
+  },
+  {
+   "cycle": 1451,
+   "netWorth": 10825788,
+   "level": 15,
+   "cash": 2406,
+   "profit": -48965
+  },
+  {
+   "cycle": 1456,
+   "netWorth": 11150496,
+   "level": 15,
+   "cash": 0,
+   "profit": -35991
+  },
+  {
+   "cycle": 1461,
+   "netWorth": 10913964,
+   "level": 15,
+   "cash": 0,
+   "profit": -38014
+  },
+  {
+   "cycle": 1466,
+   "netWorth": 11433282,
+   "level": 15,
+   "cash": 567,
+   "profit": -49681
+  },
+  {
+   "cycle": 1471,
+   "netWorth": 10974212,
+   "level": 15,
+   "cash": 325809,
+   "profit": -1636
+  },
+  {
+   "cycle": 1476,
+   "netWorth": 11565653,
+   "level": 15,
+   "cash": 755661,
+   "profit": 221179
+  },
+  {
+   "cycle": 1481,
+   "netWorth": 11463015,
+   "level": 15,
+   "cash": 793357,
+   "profit": 169673
+  },
+  {
+   "cycle": 1486,
+   "netWorth": 11061757,
+   "level": 15,
+   "cash": 2415,
+   "profit": -58584
+  },
+  {
+   "cycle": 1491,
+   "netWorth": 10724194,
+   "level": 15,
+   "cash": 67,
+   "profit": -26205
+  },
+  {
+   "cycle": 1496,
+   "netWorth": 11037271,
+   "level": 15,
+   "cash": 3541,
+   "profit": -41406
+  }
+ ],
+ "finals": [
+  {
+   "cycle": 1500,
+   "netWorth": 12101537,
+   "level": 15,
+   "prestige": 29958,
+   "rank": 9
+  },
+  {
+   "cycle": 1500,
+   "netWorth": -2512504,
+   "level": 15,
+   "prestige": 3496,
+   "rank": 6
+  },
+  {
+   "cycle": 1500,
+   "netWorth": 9093302,
+   "level": 15,
+   "prestige": 21609,
+   "rank": 9
+  }
+ ],
+ "arrearsCycles": [
+  183,
+  667,
+  185
+ ]
+}

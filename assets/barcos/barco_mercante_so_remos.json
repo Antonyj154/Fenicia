@@ -1,0 +1,51 @@
+{
+ "imagen": "barco_mercante_so_remos.png",
+ "ancho_fotograma": 189,
+ "alto_fotograma": 198,
+ "fotogramas": 4,
+ "frames": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 189,
+   "h": 198
+  },
+  {
+   "x": 189,
+   "y": 0,
+   "w": 189,
+   "h": 198
+  },
+  {
+   "x": 378,
+   "y": 0,
+   "w": 189,
+   "h": 198
+  },
+  {
+   "x": 567,
+   "y": 0,
+   "w": 189,
+   "h": 198
+  }
+ ],
+ "orden": [
+  "ataque",
+  "palada",
+  "final",
+  "recobro"
+ ],
+ "duracion_ms": 180,
+ "bucle": true,
+ "pivote": {
+  "x": 94,
+  "y": 197,
+  "nota": "centro de la línea de flotación"
+ },
+ "sprite_quieto": "barco_mercante_so_recogida.png",
+ "offset_sprite_quieto": {
+  "x": 0,
+  "y": 0,
+  "nota": "posición del sprite _recogida dentro del fotograma"
+ }
+}

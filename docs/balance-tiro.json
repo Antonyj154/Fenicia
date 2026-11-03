@@ -1,0 +1,1353 @@
+{
+ "city": "tiro",
+ "seeds": 3,
+ "maxCycles": 1500,
+ "milestones": [
+  {
+   "id": 1,
+   "name": "Compra y venta manual",
+   "cycle": 0,
+   "reachedBy": 3
+  },
+  {
+   "id": 2,
+   "name": "Nuevos productos",
+   "cycle": 1,
+   "reachedBy": 3
+  },
+  {
+   "id": 3,
+   "name": "Primer trabajador",
+   "cycle": 3,
+   "reachedBy": 3
+  },
+  {
+   "id": 4,
+   "name": "Automatización de ventas",
+   "cycle": 5,
+   "reachedBy": 3
+  },
+  {
+   "id": 5,
+   "name": "Alquiler de puesto comercial",
+   "cycle": 5,
+   "reachedBy": 3
+  },
+  {
+   "id": 6,
+   "name": "Costos de alquiler y mantenimiento",
+   "cycle": 6,
+   "reachedBy": 3
+  },
+  {
+   "id": 7,
+   "name": "Contratación de más trabajadores",
+   "cycle": 9,
+   "reachedBy": 3
+  },
+  {
+   "id": 8,
+   "name": "Alquiler de almacén",
+   "cycle": 14,
+   "reachedBy": 3
+  },
+  {
+   "id": 9,
+   "name": "Gestión de inventario y especulación",
+   "cycle": 15,
+   "reachedBy": 3
+  },
+  {
+   "id": 10,
+   "name": "Compra de local propio",
+   "cycle": 29,
+   "reachedBy": 3
+  },
+  {
+   "id": 11,
+   "name": "Negociación con proveedores",
+   "cycle": 37,
+   "reachedBy": 3
+  },
+  {
+   "id": 12,
+   "name": "Compra mayorista",
+   "cycle": 69,
+   "reachedBy": 3
+  },
+  {
+   "id": 13,
+   "name": "Adquisición de más establecimientos",
+   "cycle": 57,
+   "reachedBy": 3
+  },
+  {
+   "id": 14,
+   "name": "Distribución a otros comerciantes",
+   "cycle": 67,
+   "reachedBy": 3
+  },
+  {
+   "id": 15,
+   "name": "Alquiler de barco",
+   "cycle": 72,
+   "reachedBy": 3
+  },
+  {
+   "id": 16,
+   "name": "Contratación de capitán y tripulación",
+   "cycle": 72,
+   "reachedBy": 3
+  },
+  {
+   "id": 17,
+   "name": "Financiación de expediciones",
+   "cycle": 77,
+   "reachedBy": 3
+  },
+  {
+   "id": 18,
+   "name": "Logística marítima",
+   "cycle": 78,
+   "reachedBy": 3
+  },
+  {
+   "id": 19,
+   "name": "Automatización de rutas",
+   "cycle": 79,
+   "reachedBy": 3
+  },
+  {
+   "id": 20,
+   "name": "Compra del primer barco",
+   "cycle": 89,
+   "reachedBy": 3
+  },
+  {
+   "id": 21,
+   "name": "Contratación de varios capitanes",
+   "cycle": 104,
+   "reachedBy": 3
+  },
+  {
+   "id": 22,
+   "name": "Préstamos",
+   "cycle": 95,
+   "reachedBy": 3
+  },
+  {
+   "id": 23,
+   "name": "Participación en otros negocios",
+   "cycle": 106,
+   "reachedBy": 3
+  },
+  {
+   "id": 24,
+   "name": "Compra de astillero",
+   "cycle": 131,
+   "reachedBy": 3
+  },
+  {
+   "id": 25,
+   "name": "Construcción y reparación de barcos",
+   "cycle": 163,
+   "reachedBy": 3
+  },
+  {
+   "id": 26,
+   "name": "Contratos internacionales",
+   "cycle": 116,
+   "reachedBy": 3
+  },
+  {
+   "id": 27,
+   "name": "Compra de cargamentos a gran escala",
+   "cycle": 159,
+   "reachedBy": 3
+  },
+  {
+   "id": 28,
+   "name": "Monopolios comerciales",
+   "reachedBy": 0
+  },
+  {
+   "id": 29,
+   "name": "Inversiones avanzadas",
+   "cycle": 275,
+   "reachedBy": 3
+  },
+  {
+   "id": 30,
+   "name": "Rutas por tierra",
+   "cycle": 64,
+   "reachedBy": 3
+  },
+  {
+   "id": 31,
+   "name": "Contrato exclusivo",
+   "cycle": 68,
+   "reachedBy": 3
+  }
+ ],
+ "levels": [
+  {
+   "level": 1,
+   "cycle": 0,
+   "reachedBy": 3
+  },
+  {
+   "level": 2,
+   "cycle": 5,
+   "reachedBy": 3
+  },
+  {
+   "level": 3,
+   "cycle": 9,
+   "reachedBy": 3
+  },
+  {
+   "level": 4,
+   "cycle": 17,
+   "reachedBy": 3
+  },
+  {
+   "level": 5,
+   "cycle": 31,
+   "reachedBy": 3
+  },
+  {
+   "level": 6,
+   "cycle": 57,
+   "reachedBy": 3
+  },
+  {
+   "level": 7,
+   "cycle": 66,
+   "reachedBy": 3
+  },
+  {
+   "level": 8,
+   "cycle": 70,
+   "reachedBy": 3
+  },
+  {
+   "level": 9,
+   "cycle": 76,
+   "reachedBy": 3
+  },
+  {
+   "level": 10,
+   "cycle": 82,
+   "reachedBy": 3
+  },
+  {
+   "level": 11,
+   "cycle": 89,
+   "reachedBy": 3
+  },
+  {
+   "level": 12,
+   "cycle": 95,
+   "reachedBy": 3
+  },
+  {
+   "level": 13,
+   "cycle": 103,
+   "reachedBy": 3
+  },
+  {
+   "level": 14,
+   "cycle": 130,
+   "reachedBy": 3
+  },
+  {
+   "level": 15,
+   "cycle": 174,
+   "reachedBy": 3
+  }
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "cycle": 0
+  },
+  {
+   "rank": 2,
+   "cycle": 7
+  },
+  {
+   "rank": 3,
+   "cycle": 23
+  },
+  {
+   "rank": 4,
+   "cycle": 59
+  },
+  {
+   "rank": 5,
+   "cycle": 87
+  },
+  {
+   "rank": 6,
+   "cycle": 114
+  },
+  {
+   "rank": 7,
+   "cycle": 174
+  },
+  {
+   "rank": 8,
+   "cycle": 319
+  },
+  {
+   "rank": 9
+  },
+  {
+   "rank": 10
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "name": "Venta manual de 5 baratijas",
+   "gdd": {
+    "rev": 25,
+    "varc": 20,
+    "fixed": 0,
+    "net": 5
+   },
+   "first": 2,
+   "cycles": 1,
+   "sim": {
+    "rev": 118,
+    "varc": 86,
+    "fixed": 0,
+    "net": 32
+   }
+  },
+  {
+   "n": 2,
+   "name": "Venta manual de 50 baratijas",
+   "gdd": {
+    "rev": 250,
+    "varc": 200,
+    "fixed": 0,
+    "net": 50
+   },
+   "first": 1,
+   "cycles": 4,
+   "sim": {
+    "rev": 434.6666666666667,
+    "varc": 318.50083333333333,
+    "fixed": 0,
+    "net": 116.16583333333334
+   }
+  },
+  {
+   "n": 3,
+   "name": "Primer trabajador",
+   "gdd": {
+    "rev": 500,
+    "varc": 400,
+    "fixed": 50,
+    "net": 50
+   },
+   "first": 5,
+   "cycles": 4,
+   "sim": {
+    "rev": 689.125,
+    "varc": 513.0775,
+    "fixed": 50,
+    "net": 126.0475
+   }
+  },
+  {
+   "n": 4,
+   "name": "Primer puesto alquilado",
+   "gdd": {
+    "rev": 1000,
+    "varc": 800,
+    "fixed": 100,
+    "net": 100
+   },
+   "first": 6,
+   "cycles": 4,
+   "sim": {
+    "rev": 937.6166666666667,
+    "varc": 688.8353333333334,
+    "fixed": 100,
+    "net": 148.78133333333332
+   }
+  },
+  {
+   "n": 5,
+   "name": "Puesto y 2 trabajadores",
+   "gdd": {
+    "rev": 2000,
+    "varc": 1600,
+    "fixed": 150,
+    "net": 250
+   },
+   "first": 10,
+   "cycles": 29,
+   "sim": {
+    "rev": 1829.103448275862,
+    "varc": 1355.4269304029303,
+    "fixed": 222.2118226600985,
+    "net": 251.46469521283316
+   }
+  },
+  {
+   "n": 6,
+   "name": "Primer local propio",
+   "gdd": {
+    "rev": 3500,
+    "varc": 2800,
+    "fixed": 200,
+    "net": 500
+   },
+   "sim": {}
+  },
+  {
+   "n": 7,
+   "name": "Local propio y almacén",
+   "gdd": {
+    "rev": 6000,
+    "varc": 4600,
+    "fixed": 350,
+    "net": 1050
+   },
+   "first": 39,
+   "cycles": 28,
+   "sim": {
+    "rev": 3597.2982590885817,
+    "varc": 2690.9584511008707,
+    "fixed": 300.47875064004097,
+    "net": 605.8610573476702
+   }
+  },
+  {
+   "n": 8,
+   "name": "Dos locales y 5 trabajadores",
+   "gdd": {
+    "rev": 12000,
+    "varc": 9000,
+    "fixed": 700,
+    "net": 2300
+   },
+   "sim": {}
+  },
+  {
+   "n": 9,
+   "name": "Negociación con proveedores",
+   "gdd": {
+    "rev": 20000,
+    "varc": 14000,
+    "fixed": 1100,
+    "net": 4900
+   },
+   "sim": {}
+  },
+  {
+   "n": 10,
+   "name": "Distribución a comerciantes",
+   "gdd": {
+    "rev": 35000,
+    "varc": 30000,
+    "fixed": 1500,
+    "net": 3500
+   },
+   "first": 67,
+   "cycles": 5,
+   "sim": {
+    "rev": 22276.733333333337,
+    "varc": 17116.381333333335,
+    "fixed": 363.3333333333333,
+    "net": 4797.018666666667
+   }
+  },
+  {
+   "n": 11,
+   "name": "Primer barco alquilado",
+   "gdd": {
+    "rev": 55000,
+    "varc": 40000,
+    "fixed": 8000,
+    "net": 7000
+   },
+   "first": 72,
+   "cycles": 8,
+   "sim": {
+    "rev": 31666.410714285714,
+    "varc": 26535.55660714286,
+    "fixed": 1053.0357142857144,
+    "net": 3968.9671428571423
+   }
+  },
+  {
+   "n": 12,
+   "name": "Primera ruta automatizada",
+   "gdd": {
+    "rev": 90000,
+    "varc": 65000,
+    "fixed": 12000,
+    "net": 13000
+   },
+   "first": 80,
+   "cycles": 24,
+   "sim": {
+    "rev": 85730.76441102757,
+    "varc": 68003.74875417711,
+    "fixed": 1696.3425229741022,
+    "net": 16017.280276733502
+   }
+  },
+  {
+   "n": 13,
+   "name": "Primer barco propio",
+   "gdd": {
+    "rev": 150000,
+    "varc": 105000,
+    "fixed": 18000,
+    "net": 27000
+   },
+   "first": 104,
+   "cycles": 15,
+   "sim": {
+    "rev": 201136.55461393596,
+    "varc": 157576.62561393596,
+    "fixed": 5306.897175141244,
+    "net": 36681.978736346515
+   }
+  },
+  {
+   "n": 14,
+   "name": "Flota de 3 barcos y contratos",
+   "gdd": {
+    "rev": 300000,
+    "varc": 205000,
+    "fixed": 35000,
+    "net": 60000
+   },
+   "first": 116,
+   "cycles": 104,
+   "sim": {
+    "rev": 294686.5818858561,
+    "varc": 228390.55991935486,
+    "fixed": 9456.135080645161,
+    "net": 56126.35548542183
+   }
+  },
+  {
+   "n": 15,
+   "name": "Astillero propio y red comercial",
+   "gdd": {
+    "rev": 600000,
+    "varc": 400000,
+    "fixed": 70000,
+    "net": 130000
+   },
+   "first": 163,
+   "cycles": 143,
+   "sim": {
+    "rev": 442449.77063881484,
+    "varc": 348397.63945687213,
+    "fixed": 31982.652931067296,
+    "net": 60503.25670185348
+   }
+  }
+ ],
+ "curve": [
+  {
+   "cycle": 1,
+   "netWorth": 68,
+   "level": 1,
+   "cash": 3,
+   "profit": 48
+  },
+  {
+   "cycle": 2,
+   "netWorth": 138,
+   "level": 1,
+   "cash": 2,
+   "profit": 70
+  },
+  {
+   "cycle": 3,
+   "netWorth": 257,
+   "level": 1,
+   "cash": 17,
+   "profit": 119
+  },
+  {
+   "cycle": 4,
+   "netWorth": 396,
+   "level": 1,
+   "cash": 156,
+   "profit": 139
+  },
+  {
+   "cycle": 5,
+   "netWorth": 609,
+   "level": 2,
+   "cash": 317,
+   "profit": 213
+  },
+  {
+   "cycle": 6,
+   "netWorth": 713,
+   "level": 2,
+   "cash": 361,
+   "profit": 84
+  },
+  {
+   "cycle": 7,
+   "netWorth": 796,
+   "level": 2,
+   "cash": 449,
+   "profit": 112
+  },
+  {
+   "cycle": 8,
+   "netWorth": 808,
+   "level": 2,
+   "cash": 465,
+   "profit": 5
+  },
+  {
+   "cycle": 9,
+   "netWorth": 1159,
+   "level": 3,
+   "cash": 559,
+   "profit": 294
+  },
+  {
+   "cycle": 10,
+   "netWorth": 1407,
+   "level": 3,
+   "cash": 825,
+   "profit": 302
+  },
+  {
+   "cycle": 11,
+   "netWorth": 1651,
+   "level": 3,
+   "cash": 1086,
+   "profit": 244
+  },
+  {
+   "cycle": 12,
+   "netWorth": 1658,
+   "level": 3,
+   "cash": 1098,
+   "profit": 32
+  },
+  {
+   "cycle": 13,
+   "netWorth": 1690,
+   "level": 3,
+   "cash": 1142,
+   "profit": 16
+  },
+  {
+   "cycle": 14,
+   "netWorth": 1746,
+   "level": 3,
+   "cash": 1202,
+   "profit": 37
+  },
+  {
+   "cycle": 15,
+   "netWorth": 1782,
+   "level": 3,
+   "cash": 1171,
+   "profit": 27
+  },
+  {
+   "cycle": 16,
+   "netWorth": 1887,
+   "level": 3,
+   "cash": 1399,
+   "profit": 181
+  },
+  {
+   "cycle": 17,
+   "netWorth": 2186,
+   "level": 4,
+   "cash": 566,
+   "profit": 268
+  },
+  {
+   "cycle": 18,
+   "netWorth": 2235,
+   "level": 4,
+   "cash": 1212,
+   "profit": 52
+  },
+  {
+   "cycle": 19,
+   "netWorth": 2378,
+   "level": 4,
+   "cash": 1368,
+   "profit": 139
+  },
+  {
+   "cycle": 20,
+   "netWorth": 2565,
+   "level": 4,
+   "cash": 1541,
+   "profit": 155
+  },
+  {
+   "cycle": 21,
+   "netWorth": 2678,
+   "level": 4,
+   "cash": 1684,
+   "profit": 148
+  },
+  {
+   "cycle": 22,
+   "netWorth": 2729,
+   "level": 4,
+   "cash": 1729,
+   "profit": 27
+  },
+  {
+   "cycle": 23,
+   "netWorth": 3001,
+   "level": 4,
+   "cash": 1968,
+   "profit": 237
+  },
+  {
+   "cycle": 24,
+   "netWorth": 3330,
+   "level": 4,
+   "cash": 2258,
+   "profit": 319
+  },
+  {
+   "cycle": 25,
+   "netWorth": 3264,
+   "level": 4,
+   "cash": 1687,
+   "profit": 43
+  },
+  {
+   "cycle": 26,
+   "netWorth": 3599,
+   "level": 4,
+   "cash": 1925,
+   "profit": 268
+  },
+  {
+   "cycle": 27,
+   "netWorth": 3738,
+   "level": 4,
+   "cash": 2119,
+   "profit": 193
+  },
+  {
+   "cycle": 28,
+   "netWorth": 4186,
+   "level": 4,
+   "cash": 2581,
+   "profit": 426
+  },
+  {
+   "cycle": 29,
+   "netWorth": 5516,
+   "level": 4,
+   "cash": 3735,
+   "profit": 1126
+  },
+  {
+   "cycle": 30,
+   "netWorth": 5655,
+   "level": 4,
+   "cash": 3917,
+   "profit": 183
+  },
+  {
+   "cycle": 31,
+   "netWorth": 5631,
+   "level": 5,
+   "cash": 3969,
+   "profit": 105
+  },
+  {
+   "cycle": 32,
+   "netWorth": 6155,
+   "level": 5,
+   "cash": 3099,
+   "profit": 546
+  },
+  {
+   "cycle": 33,
+   "netWorth": 6360,
+   "level": 5,
+   "cash": 4499,
+   "profit": 294
+  },
+  {
+   "cycle": 34,
+   "netWorth": 6666,
+   "level": 5,
+   "cash": 3761,
+   "profit": 252
+  },
+  {
+   "cycle": 35,
+   "netWorth": 6900,
+   "level": 5,
+   "cash": 5083,
+   "profit": 247
+  },
+  {
+   "cycle": 36,
+   "netWorth": 7646,
+   "level": 5,
+   "cash": 3098,
+   "profit": 568
+  },
+  {
+   "cycle": 37,
+   "netWorth": 8285,
+   "level": 5,
+   "cash": 5286,
+   "profit": 657
+  },
+  {
+   "cycle": 38,
+   "netWorth": 8522,
+   "level": 5,
+   "cash": 6667,
+   "profit": 330
+  },
+  {
+   "cycle": 39,
+   "netWorth": 8773,
+   "level": 5,
+   "cash": 869,
+   "profit": 239
+  },
+  {
+   "cycle": 40,
+   "netWorth": 9009,
+   "level": 5,
+   "cash": 1095,
+   "profit": 231
+  },
+  {
+   "cycle": 41,
+   "netWorth": 9468,
+   "level": 5,
+   "cash": 1539,
+   "profit": 455
+  },
+  {
+   "cycle": 42,
+   "netWorth": 9707,
+   "level": 5,
+   "cash": 1782,
+   "profit": 249
+  },
+  {
+   "cycle": 43,
+   "netWorth": 9932,
+   "level": 5,
+   "cash": 2054,
+   "profit": 276
+  },
+  {
+   "cycle": 44,
+   "netWorth": 10255,
+   "level": 5,
+   "cash": 2433,
+   "profit": 361
+  },
+  {
+   "cycle": 45,
+   "netWorth": 10524,
+   "level": 5,
+   "cash": 2662,
+   "profit": 189
+  },
+  {
+   "cycle": 46,
+   "netWorth": 10926,
+   "level": 5,
+   "cash": 3054,
+   "profit": 389
+  },
+  {
+   "cycle": 47,
+   "netWorth": 11166,
+   "level": 5,
+   "cash": 3302,
+   "profit": 253
+  },
+  {
+   "cycle": 48,
+   "netWorth": 11396,
+   "level": 5,
+   "cash": 3490,
+   "profit": 187
+  },
+  {
+   "cycle": 49,
+   "netWorth": 11750,
+   "level": 5,
+   "cash": 3831,
+   "profit": 369
+  },
+  {
+   "cycle": 50,
+   "netWorth": 11985,
+   "level": 5,
+   "cash": 4249,
+   "profit": 433
+  },
+  {
+   "cycle": 51,
+   "netWorth": 12185,
+   "level": 5,
+   "cash": 4451,
+   "profit": 127
+  },
+  {
+   "cycle": 52,
+   "netWorth": 12354,
+   "level": 5,
+   "cash": 4638,
+   "profit": 145
+  },
+  {
+   "cycle": 53,
+   "netWorth": 12636,
+   "level": 5,
+   "cash": 4853,
+   "profit": 180
+  },
+  {
+   "cycle": 54,
+   "netWorth": 12792,
+   "level": 5,
+   "cash": 5024,
+   "profit": 184
+  },
+  {
+   "cycle": 55,
+   "netWorth": 13089,
+   "level": 5,
+   "cash": 5218,
+   "profit": 194
+  },
+  {
+   "cycle": 56,
+   "netWorth": 14642,
+   "level": 5,
+   "cash": 6098,
+   "profit": 1684
+  },
+  {
+   "cycle": 57,
+   "netWorth": 15058,
+   "level": 6,
+   "cash": 6582,
+   "profit": 477
+  },
+  {
+   "cycle": 58,
+   "netWorth": 16023,
+   "level": 6,
+   "cash": 5786,
+   "profit": 998
+  },
+  {
+   "cycle": 59,
+   "netWorth": 17335,
+   "level": 6,
+   "cash": 7181,
+   "profit": 1347
+  },
+  {
+   "cycle": 60,
+   "netWorth": 18118,
+   "level": 6,
+   "cash": 7882,
+   "profit": 627
+  },
+  {
+   "cycle": 61,
+   "netWorth": 18751,
+   "level": 6,
+   "cash": 9068,
+   "profit": 510
+  },
+  {
+   "cycle": 66,
+   "netWorth": 23997,
+   "level": 7,
+   "cash": 8335,
+   "profit": 1680
+  },
+  {
+   "cycle": 71,
+   "netWorth": 47713,
+   "level": 8,
+   "cash": 23727,
+   "profit": 5926
+  },
+  {
+   "cycle": 76,
+   "netWorth": 74380,
+   "level": 9,
+   "cash": 27215,
+   "profit": 9844
+  },
+  {
+   "cycle": 81,
+   "netWorth": 103365,
+   "level": 9,
+   "cash": 28256,
+   "profit": 12865
+  },
+  {
+   "cycle": 86,
+   "netWorth": 130895,
+   "level": 10,
+   "cash": 6,
+   "profit": -14399
+  },
+  {
+   "cycle": 91,
+   "netWorth": 159980,
+   "level": 11,
+   "cash": 51759,
+   "profit": 35792
+  },
+  {
+   "cycle": 96,
+   "netWorth": 282676,
+   "level": 12,
+   "cash": 125148,
+   "profit": 18640
+  },
+  {
+   "cycle": 101,
+   "netWorth": 173370,
+   "level": 12,
+   "cash": 34678,
+   "profit": 8875
+  },
+  {
+   "cycle": 106,
+   "netWorth": 505674,
+   "level": 13,
+   "cash": 61,
+   "profit": -22958
+  },
+  {
+   "cycle": 111,
+   "netWorth": 814746,
+   "level": 13,
+   "cash": 318986,
+   "profit": 141664
+  },
+  {
+   "cycle": 116,
+   "netWorth": 936793,
+   "level": 13,
+   "cash": 167285,
+   "profit": -7278
+  },
+  {
+   "cycle": 121,
+   "netWorth": 630203,
+   "level": 13,
+   "cash": 3871,
+   "profit": 19853
+  },
+  {
+   "cycle": 126,
+   "netWorth": 1273848,
+   "level": 13,
+   "cash": 269195,
+   "profit": 48853
+  },
+  {
+   "cycle": 131,
+   "netWorth": 1542997,
+   "level": 14,
+   "cash": 637246,
+   "profit": 240775
+  },
+  {
+   "cycle": 136,
+   "netWorth": 1989887,
+   "level": 14,
+   "cash": 425548,
+   "profit": -1668
+  },
+  {
+   "cycle": 141,
+   "netWorth": 1983167,
+   "level": 14,
+   "cash": 277082,
+   "profit": 275
+  },
+  {
+   "cycle": 146,
+   "netWorth": 1867556,
+   "level": 14,
+   "cash": 1363,
+   "profit": 12155
+  },
+  {
+   "cycle": 151,
+   "netWorth": 2834747,
+   "level": 14,
+   "cash": 754584,
+   "profit": -2085
+  },
+  {
+   "cycle": 156,
+   "netWorth": 2918637,
+   "level": 14,
+   "cash": 20,
+   "profit": -2352
+  },
+  {
+   "cycle": 161,
+   "netWorth": 3473028,
+   "level": 14,
+   "cash": 1422944,
+   "profit": -42
+  },
+  {
+   "cycle": 166,
+   "netWorth": 3325367,
+   "level": 14,
+   "cash": 812082,
+   "profit": 136578
+  },
+  {
+   "cycle": 171,
+   "netWorth": 4073521,
+   "level": 14,
+   "cash": 169,
+   "profit": -6328
+  },
+  {
+   "cycle": 176,
+   "netWorth": 4381065,
+   "level": 15,
+   "cash": 39,
+   "profit": 77636
+  },
+  {
+   "cycle": 181,
+   "netWorth": 3988906,
+   "level": 15,
+   "cash": 25,
+   "profit": -8506
+  },
+  {
+   "cycle": 186,
+   "netWorth": 4866488,
+   "level": 15,
+   "cash": 8432,
+   "profit": 911
+  },
+  {
+   "cycle": 191,
+   "netWorth": 4876963,
+   "level": 15,
+   "cash": 589828,
+   "profit": 215967
+  },
+  {
+   "cycle": 196,
+   "netWorth": 5671555,
+   "level": 15,
+   "cash": 463144,
+   "profit": 105176
+  },
+  {
+   "cycle": 201,
+   "netWorth": 4643043,
+   "level": 15,
+   "cash": 7,
+   "profit": -15242
+  },
+  {
+   "cycle": 206,
+   "netWorth": 5945939,
+   "level": 15,
+   "cash": 7,
+   "profit": -10384
+  },
+  {
+   "cycle": 211,
+   "netWorth": 5522770,
+   "level": 15,
+   "cash": 106098,
+   "profit": -13247
+  },
+  {
+   "cycle": 216,
+   "netWorth": 6766562,
+   "level": 15,
+   "cash": 147,
+   "profit": -18508
+  },
+  {
+   "cycle": 221,
+   "netWorth": 6825775,
+   "level": 15,
+   "cash": 6,
+   "profit": -17577
+  },
+  {
+   "cycle": 226,
+   "netWorth": 6868577,
+   "level": 15,
+   "cash": 0,
+   "profit": -24977
+  },
+  {
+   "cycle": 231,
+   "netWorth": 6164089,
+   "level": 15,
+   "cash": 0,
+   "profit": -25383
+  },
+  {
+   "cycle": 236,
+   "netWorth": 7831980,
+   "level": 15,
+   "cash": 101047,
+   "profit": -28698
+  },
+  {
+   "cycle": 241,
+   "netWorth": 8072140,
+   "level": 15,
+   "cash": 129,
+   "profit": -27760
+  },
+  {
+   "cycle": 246,
+   "netWorth": 8005333,
+   "level": 15,
+   "cash": 0,
+   "profit": -27770
+  },
+  {
+   "cycle": 251,
+   "netWorth": 8426896,
+   "level": 15,
+   "cash": 113,
+   "profit": -26813
+  },
+  {
+   "cycle": 256,
+   "netWorth": 9665896,
+   "level": 15,
+   "cash": 4194349,
+   "profit": 488773
+  },
+  {
+   "cycle": 261,
+   "netWorth": 10011226,
+   "level": 15,
+   "cash": 748454,
+   "profit": -32238
+  },
+  {
+   "cycle": 266,
+   "netWorth": 10008252,
+   "level": 15,
+   "cash": 1070542,
+   "profit": 33727
+  },
+  {
+   "cycle": 271,
+   "netWorth": 8866295,
+   "level": 15,
+   "cash": 830710,
+   "profit": -33531
+  },
+  {
+   "cycle": 276,
+   "netWorth": 9929922,
+   "level": 15,
+   "cash": 0,
+   "profit": -41567
+  },
+  {
+   "cycle": 281,
+   "netWorth": 9873269,
+   "level": 15,
+   "cash": 208,
+   "profit": -33277
+  },
+  {
+   "cycle": 286,
+   "netWorth": 9436145,
+   "level": 15,
+   "cash": 309354,
+   "profit": 13772
+  },
+  {
+   "cycle": 291,
+   "netWorth": 9923886,
+   "level": 15,
+   "cash": 1826880,
+   "profit": -26498
+  },
+  {
+   "cycle": 296,
+   "netWorth": 11337363,
+   "level": 15,
+   "cash": 3694378,
+   "profit": 97298
+  },
+  {
+   "cycle": 301,
+   "netWorth": 10563245,
+   "level": 15,
+   "cash": 1136241,
+   "profit": -36747
+  }
+ ],
+ "finals": [
+  {
+   "cycle": 305,
+   "netWorth": 12363767,
+   "level": 15,
+   "prestige": 6514,
+   "rank": 7
+  },
+  {
+   "cycle": 318,
+   "netWorth": 12199653,
+   "level": 15,
+   "prestige": 6465,
+   "rank": 7
+  },
+  {
+   "cycle": 327,
+   "netWorth": 12532030,
+   "level": 15,
+   "prestige": 7778,
+   "rank": 8
+  }
+ ],
+ "arrearsCycles": [
+  12,
+  12,
+  14
+ ]
+}

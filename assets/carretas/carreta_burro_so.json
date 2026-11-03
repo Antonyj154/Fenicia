@@ -1,0 +1,57 @@
+{
+  "image": "carreta_burro_so.png",
+  "descripcion": "carro de dos ruedas con ánforas y sacos, tirado por un burro, con el arriero a pie",
+  "direction": "abajo-izquierda",
+  "frame_size": {
+    "w": 71,
+    "h": 45
+  },
+  "pivot": {
+    "x": 52,
+    "y": 26,
+    "nota": "centro del carro (eje de las ruedas) a ras de suelo; colocarlo en el centro de la casilla que ocupa el carro"
+  },
+  "huella": "≈ 1,5 × 0,8 casillas (burro delante del carro)",
+  "frames": [
+    {
+      "name": "walk_1",
+      "x": 0,
+      "y": 0,
+      "w": 71,
+      "h": 45,
+      "duration_ms": 150
+    },
+    {
+      "name": "walk_2",
+      "x": 71,
+      "y": 0,
+      "w": 71,
+      "h": 45,
+      "duration_ms": 150
+    },
+    {
+      "name": "walk_3",
+      "x": 142,
+      "y": 0,
+      "w": 71,
+      "h": 45,
+      "duration_ms": 150
+    },
+    {
+      "name": "walk_4",
+      "x": 213,
+      "y": 0,
+      "w": 71,
+      "h": 45,
+      "duration_ms": 150
+    }
+  ],
+  "animations": {
+    "walk": [
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4"
+    ]
+  }
+}

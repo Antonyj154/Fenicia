@@ -1,0 +1,65 @@
+GIMP Palette
+Name: Paleta Fenecia
+Columns: 6
+#
+# Caliza (muros)
+111  95  76	caliza #6f5f4c
+154 133 106	caliza #9a856a
+187 165 138	caliza #bba58a
+214 196 166	caliza #d6c4a6
+235 220 192	caliza #ebdcc0
+247 238 219	caliza #f7eedb
+# Teja terracota
+ 94  36  22	teja #5e2416
+125  50  29	teja #7d321d
+157  68  38	teja #9d4426
+187  90  49	teja #bb5a31
+214 116  74	teja #d6744a
+# Madera de cedro
+ 46  29  18	cedro #2e1d12
+ 71  48  29	cedro #47301d
+100  69  42	cedro #64452a
+130  96  58	cedro #82603a
+160 125  82	cedro #a07d52
+# Púrpura de Tiro
+ 61  13  46	purpura #3d0d2e
+ 92  20  63	purpura #5c143f
+123  31  93	purpura #7b1f5d
+155  58 122	purpura #9b3a7a
+192 106 160	purpura #c06aa0
+# Piedra gris
+ 78  74  70	piedra #4e4a46
+108 102  94	piedra #6c665e
+139 131 120	piedra #8b8378
+169 159 145	piedra #a99f91
+197 188 173	piedra #c5bcad
+# Tierra y calles
+107  80  52	tierra #6b5034
+138 106  69	tierra #8a6a45
+168 132  90	tierra #a8845a
+194 157 110	tierra #c29d6e
+216 184 134	tierra #d8b886
+# Vegetación
+ 29  51  23	vegetacion #1d3317
+ 43  74  31	vegetacion #2b4a1f
+ 60  98  39	vegetacion #3c6227
+ 82 123  50	vegetacion #527b32
+111 150  64	vegetacion #6f9640
+132 145 107	vegetacion #84916b
+# Mar
+ 13  42  69	mar #0d2a45
+ 22  74 114	mar #164a72
+ 35 114 154	mar #23729a
+ 47 159 174	mar #2f9fae
+127 211 200	mar #7fd3c8
+# Telas y acentos (crema, rojo, oro×2, piel, contorno)
+239 229 210	acentos #efe5d2
+191  62  37	acentos #bf3e25
+224 169  46	acentos #e0a92e
+246 211 106	acentos #f6d36a
+156 106  71	acentos #9c6a47
+ 18  13  22	acentos #120d16
+# Grises fríos de sombra (añadidos tanda 1, aprobado por Antony)
+ 86  91 104	sombra_fria #565b68
+123 129 144	sombra_fria #7b8190
+163 168 179	sombra_fria #a3a8b3

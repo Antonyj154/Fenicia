@@ -1,0 +1,54 @@
+{
+  "obj_mostrador_anforas.png": {
+    "size": [
+      34,
+      40
+    ],
+    "footprint": "1x1",
+    "pivot": {
+      "x": 17,
+      "y": 32
+    },
+    "descripcion": "mostrador con ánforas de barro rojo y de engobe claro",
+    "nota": "centro de la base del mostrador a ras de suelo: colocarlo en el centro de la casilla. Los cuatro comparten la misma base y el mismo lienzo"
+  },
+  "obj_mostrador_telas.png": {
+    "size": [
+      34,
+      40
+    ],
+    "footprint": "1x1",
+    "pivot": {
+      "x": 17,
+      "y": 32
+    },
+    "descripcion": "mostrador con telas dobladas de colores y un rollo de púrpura",
+    "nota": "centro de la base del mostrador a ras de suelo: colocarlo en el centro de la casilla. Los cuatro comparten la misma base y el mismo lienzo"
+  },
+  "obj_mostrador_vidrio.png": {
+    "size": [
+      34,
+      40
+    ],
+    "footprint": "1x1",
+    "pivot": {
+      "x": 17,
+      "y": 32
+    },
+    "descripcion": "mostrador con frascos, jarrita y cuencos de vidrio azul, turquesa y púrpura",
+    "nota": "centro de la base del mostrador a ras de suelo: colocarlo en el centro de la casilla. Los cuatro comparten la misma base y el mismo lienzo"
+  },
+  "obj_mostrador_joyas.png": {
+    "size": [
+      34,
+      40
+    ],
+    "footprint": "1x1",
+    "pivot": {
+      "x": 17,
+      "y": 32
+    },
+    "descripcion": "mostrador con paño púrpura, collares de oro con cornalina y turquesa, copa de oro y brazalete de plata",
+    "nota": "centro de la base del mostrador a ras de suelo: colocarlo en el centro de la casilla. Los cuatro comparten la misma base y el mismo lienzo"
+  }
+}

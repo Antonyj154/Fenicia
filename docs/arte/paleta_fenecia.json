@@ -1,0 +1,118 @@
+{
+  "nombre": "Paleta Fenecia",
+  "version": 2,
+  "nota": "48 colores del encargo + 3 grises fríos para sombras de fachada derecha. Contorno siempre #120d16.",
+  "grupos": [
+    {
+      "id": "caliza",
+      "nombre": "Caliza (muros)",
+      "colores": [
+        "#6f5f4c",
+        "#9a856a",
+        "#bba58a",
+        "#d6c4a6",
+        "#ebdcc0",
+        "#f7eedb"
+      ]
+    },
+    {
+      "id": "teja",
+      "nombre": "Teja terracota",
+      "colores": [
+        "#5e2416",
+        "#7d321d",
+        "#9d4426",
+        "#bb5a31",
+        "#d6744a"
+      ]
+    },
+    {
+      "id": "cedro",
+      "nombre": "Madera de cedro",
+      "colores": [
+        "#2e1d12",
+        "#47301d",
+        "#64452a",
+        "#82603a",
+        "#a07d52"
+      ]
+    },
+    {
+      "id": "purpura",
+      "nombre": "Púrpura de Tiro",
+      "colores": [
+        "#3d0d2e",
+        "#5c143f",
+        "#7b1f5d",
+        "#9b3a7a",
+        "#c06aa0"
+      ]
+    },
+    {
+      "id": "piedra",
+      "nombre": "Piedra gris",
+      "colores": [
+        "#4e4a46",
+        "#6c665e",
+        "#8b8378",
+        "#a99f91",
+        "#c5bcad"
+      ]
+    },
+    {
+      "id": "tierra",
+      "nombre": "Tierra y calles",
+      "colores": [
+        "#6b5034",
+        "#8a6a45",
+        "#a8845a",
+        "#c29d6e",
+        "#d8b886"
+      ]
+    },
+    {
+      "id": "vegetacion",
+      "nombre": "Vegetación",
+      "colores": [
+        "#1d3317",
+        "#2b4a1f",
+        "#3c6227",
+        "#527b32",
+        "#6f9640",
+        "#84916b"
+      ]
+    },
+    {
+      "id": "mar",
+      "nombre": "Mar",
+      "colores": [
+        "#0d2a45",
+        "#164a72",
+        "#23729a",
+        "#2f9fae",
+        "#7fd3c8"
+      ]
+    },
+    {
+      "id": "acentos",
+      "nombre": "Telas y acentos (crema, rojo, oro×2, piel, contorno)",
+      "colores": [
+        "#efe5d2",
+        "#bf3e25",
+        "#e0a92e",
+        "#f6d36a",
+        "#9c6a47",
+        "#120d16"
+      ]
+    },
+    {
+      "id": "sombra_fria",
+      "nombre": "Grises fríos de sombra (añadidos tanda 1, aprobado por Antony)",
+      "colores": [
+        "#565b68",
+        "#7b8190",
+        "#a3a8b3"
+      ]
+    }
+  ]
+}

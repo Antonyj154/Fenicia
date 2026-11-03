@@ -1,0 +1,57 @@
+{
+  "image": "caravana_camellos_ne.png",
+  "descripcion": "dos camellos cargados con alforjas de alfombra y fardos, atados en fila, con el caravanero a pie delante",
+  "direction": "arriba-derecha",
+  "frame_size": {
+    "w": 93,
+    "h": 64
+  },
+  "pivot": {
+    "x": 31,
+    "y": 47,
+    "nota": "centro de la caravana (entre los dos camellos) a ras de suelo; colocarlo en el centro de la casilla central"
+  },
+  "huella": "≈ 3 × 1 casillas",
+  "frames": [
+    {
+      "name": "walk_1",
+      "x": 0,
+      "y": 0,
+      "w": 93,
+      "h": 64,
+      "duration_ms": 150
+    },
+    {
+      "name": "walk_2",
+      "x": 93,
+      "y": 0,
+      "w": 93,
+      "h": 64,
+      "duration_ms": 150
+    },
+    {
+      "name": "walk_3",
+      "x": 186,
+      "y": 0,
+      "w": 93,
+      "h": 64,
+      "duration_ms": 150
+    },
+    {
+      "name": "walk_4",
+      "x": 279,
+      "y": 0,
+      "w": 93,
+      "h": 64,
+      "duration_ms": 150
+    }
+  ],
+  "animations": {
+    "walk": [
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4"
+    ]
+  }
+}
